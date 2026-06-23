@@ -11,6 +11,7 @@ Space Complexity: O(1)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         # If the strings are different lengths, they cannot be anagrams
+        s,t= s.lower(), t.lower()
         if len(s) != len(t):
             return False
             

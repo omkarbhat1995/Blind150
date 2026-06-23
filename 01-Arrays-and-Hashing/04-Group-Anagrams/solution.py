@@ -18,12 +18,12 @@ class Solution:
         for s in strs:
             # Initialize an array of 26 zeroes
             count = [0] * 26
-            
+        
             # Count the frequency of each character
-            for c in s:
+            for c in s.lower():
                 count[ord(c) - ord('a')] += 1
                 
             # Convert the list to a tuple so it can be hashed as a dictionary key
             ans[tuple(count)].append(s)
-            
+        print(ans)    
         return list(ans.values())

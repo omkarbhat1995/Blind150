@@ -32,4 +32,4 @@ A palindrome is a string that reads the same forward and backward. It is also ca
 
 ## How to Run Tests
 From the root directory, run the following command to execute the test suite for this problem:
-`pytest 01-Valid-Palindrome/test_solution.py -v`
+
