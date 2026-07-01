@@ -54,11 +54,11 @@ sol = Solution()
     ([1, 2, 3, 4, 5, None, None, 6, None, None, 7, 8, None, None, 9], 6),
     
     # Imbalanced Trees
-    ([1, 2, 3, 4, None, None, 5, 6, None, None, 7], 5), # Deep independent branches
+    ([1, 2, 3, 4, None, None, 5, 6, None, None, 7], 6), # Deep independent branches
     ([1, 2, 3, 4, 5, None, None, 6, None, 7], 4),       # Left-heavy with internal branching
     
     # Constraint Boundaries & Values
-    ([-100, -50, 100, -20, None, 80], 3),     # Negative values (values do not affect diameter)
+    ([-100, -50, 100, -20, None, 80], 4),     # Negative values (values do not affect diameter)
     ([0] * 15, 6),                            # All identical values (zeros)
 ])
 def test_diameterOfBinaryTree(input_list, expected_diameter):
