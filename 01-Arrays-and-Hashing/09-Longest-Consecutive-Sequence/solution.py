@@ -16,6 +16,7 @@ class Solution:
 
         for n in num_set:
             # Check if this is the absolute start of a sequence
+            length = 0
             if (n - 1) not in num_set:
                 length = 1
                 
