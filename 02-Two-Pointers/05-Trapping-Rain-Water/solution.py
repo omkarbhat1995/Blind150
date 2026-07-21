@@ -14,7 +14,7 @@ class Solution:
         left, right = 0, len(height) - 1
         max_left, max_right = height[left], height[right]
         water_trapped = 0
-        
+            
         while left < right:
             if max_left < max_right:
                 left += 1
