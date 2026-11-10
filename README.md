@@ -3,6 +3,9 @@ Welcome to my NeetCode 150 showcase repository! This repository contains clean, 
 
 Instead of a messy collection of unorganized scripts, this project is structured to demonstrate professional software engineering standards, Test-Driven Development (TDD), and meticulous QA practices.
 
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+
+
 ## 📂 Repository Structure
 The repository mirrors the official NeetCode roadmap, categorized by algorithmic patterns to showcase a deep understanding of core computer science fundamentals:
 ```
