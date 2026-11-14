@@ -103,10 +103,10 @@ pytest -v
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Best Time to Buy and Sell Stock](./03-Sliding-Window/01-Best-Time-to-Buy-and-Sell-Stock) | Python | $O(n)$ | $O(1)$ |
 | ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | | | |
-| ✅ | [](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) | | | |
-| ✅ | [](./03-Sliding-Window//04-Permutation-in-String/) | | | |
-| ✅ | [](./03-Sliding-Window//05-Minimum-Window-Substring/) | | | |
-| ✅ | [](./03-Sliding-Window//06-Sliding-Window-Maximum/) | | | |
+| ✅ | [Longest Repeating Character Replacement](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) | | | |
+| ✅ | [Permutation in String](./03-Sliding-Window//04-Permutation-in-String/) | | | |
+| ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | | | |
+| ✅ | [Sliding Window Maximum](./03-Sliding-Window//06-Sliding-Window-Maximum/) | | | |
 </details>
 
 <details>
@@ -117,10 +117,10 @@ pytest -v
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Valid Parentheses](./04-Stack/01-Valid-Parentheses) | Python | $O(n)$ | $O(n)$ |
 | ✅ | [Min Stack](./04-Stack/02-Min-Stack/) | | | |
-| ✅ | [](./04-Stack/03-Evaluate-Reverse-Polish-Notation/) | | | |
-| ✅ | [](./04-Stack/04-Daily-Temperatures/) | | | |
-| ✅ | [](./04-Stack/05-Car-Fleet/) | | | |
-| ✅ | [](./04-Stack/06-Largest-Rectangle-In-Histogram/) | | | |
+| ✅ | [Evaluate Reverse Polish Notation](./04-Stack/03-Evaluate-Reverse-Polish-Notation/) | | | |
+| ✅ | [Daily Temperatures](./04-Stack/04-Daily-Temperatures/) | | | |
+| ✅ | [Car Fleet](./04-Stack/05-Car-Fleet/) | | | |
+| ✅ | [Largest Rectangle In Histogram](./04-Stack/06-Largest-Rectangle-In-Histogram/) | | | |
 </details>
 
 <details>
@@ -130,12 +130,12 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Binary Search](./05-Binary-Search/01-Binary-Search) | Python | $O(\log n)$ | $O(1)$ |
-| ⬜️ | [Search a 2D Matrix](./05-Binary-Search/02-Search-a-2D-Matrix/) | | | |
-| ⬜️ | [](./05-Binary-Search/03-Koko-Eating-Bananas/) | | | |
-| ⬜️ | [](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | | | |
-| ⬜️ | [](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | | | |
-| ⬜️ | [](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | | | |
-| ⬜️ | [](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | | | |
+| ✅ | [Search a 2D Matrix](./05-Binary-Search/02-Search-a-2D-Matrix/) | | | |
+| ✅ | [Koko Eating Bananas](./05-Binary-Search/03-Koko-Eating-Bananas/) | | | |
+| ✅ | [Find Minimum in Rotated Sorted Array](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | | | |
+| ✅ | [Search in Rotated Sorted Array](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | | | |
+| ✅ | [Time Based Key Value Store](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | | | |
+| ✅ | [Median of Two Sorted Arrays](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | | | |
 </details>
 
 <details>
@@ -145,16 +145,16 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Reverse Linked List](./06-Linked-List/01-Reverse-Linked-List) | Python | $O(n)$ | $O(1)$ |
-| ⬜️ | [Merge Two Sorted Lists](./06-Linked-List/02-Merge-Two-Sorted-Linked-Lists/) | | | |
-| ⬜️ | [](./06-Linked-List/03-Linked-List-Cycle-Detection) | | | |
-| ⬜️ | [](./06-Linked-List/04-Reorder-Linked-List/) | | | |
-| ⬜️ | [](./06-Linked-List/05-Remove-Nth-Node-From-End-of-List/) | | | |
-| ⬜️ | [](./06-Linked-List/06-Copy-Linked-List-with-Random-Pointer/) | | | |
-| ⬜️ | [](./06-Linked-List/07-Add-Two-Numbers/) | | | |
-| ⬜️ | [](./06-Linked-List/08-Find-the-Duplicate-Number/) | | | |
-| ⬜️ | [](./06-Linked-List/09-LRU-Cache/) | | | |
-| ⬜️ | [](./06-Linked-List/10-Merge-K-Sorted-Linked-Lists/) | | | |
-| ⬜️ | [](./06-Linked-List/11-Reverse-Nodes-in-K-Group/) | | | |
+| ✅ | [Merge Two Sorted Lists](./06-Linked-List/02-Merge-Two-Sorted-Linked-Lists/) | | | |
+| ✅ | [](./06-Linked-List/03-Linked-List-Cycle-Detection) | | | |
+| ✅ | [](./06-Linked-List/04-Reorder-Linked-List/) | | | |
+| ✅ | [](./06-Linked-List/05-Remove-Nth-Node-From-End-of-List/) | | | |
+| ✅ | [](./06-Linked-List/06-Copy-Linked-List-with-Random-Pointer/) | | | |
+| ✅ | [](./06-Linked-List/07-Add-Two-Numbers/) | | | |
+| ✅ | [](./06-Linked-List/08-Find-the-Duplicate-Number/) | | | |
+| ✅ | [](./06-Linked-List/09-LRU-Cache/) | | | |
+| ✅ | [](./06-Linked-List/10-Merge-K-Sorted-Linked-Lists/) | | | |
+| ✅ | [](./06-Linked-List/11-Reverse-Nodes-in-K-Group/) | | | |
 </details>
 
 <details>
@@ -164,21 +164,71 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Invert Binary Tree](./07-Trees/01-Invert-Binary-Tree) | Python | $O(n)$ | $O(n)$ |
-| ⬜️ | Maximum Depth of Binary Tree | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
-| ⬜️ | []() | | | |
+| ✅ | [Maximum Depth of Binary Tree](./07-Trees/02-Maximum-Depth-of-Binary-Tree/) | | | |
+| ✅ | [](./07-Trees/03-Diameter-of-Binary-Tree/) | | | |
+| ✅ | [](./07-Trees/04-Balanced-Binary-Tree/) | | | |
+| ✅ | [](./07-Trees/05-Same-Tree/) | | | |
+| ✅ | [](./07-Trees/06-Subtree-of-Another-Tree/) | | | |
+| ✅ | [](./07-Trees/07-Lowest-Common-Ancestor-of-a-Binary-Search-Tree/) | | | |
+| ✅ | [](./07-Trees/08-Binary-Tree-Level-Order-Traversal/) | | | |
+| ✅ | [](./07-Trees/09-Binary-Tree-Right-Side-View/) | | | |
+| ✅ | [](./07-Trees/10-Count-Good-Nodes-In-Binary-Tree/) | | | |
+| ✅ | [](./07-Trees/11-Validate-Binary-Search-Tree/) | | | |
+| ✅ | [](./07-Trees/12-Kth-Smallest-Element-In-a-Bst/) | | | |
+| ✅ | [](./07-Trees/13-Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal/) | | | |
+| ✅ | [](./07-Trees/14-Binary-Tree-Maximum-Path-Sum/) | | | |
+| ✅ | [](./07-Trees/15-Serialize-And-Deserialize-Binary-Tree/) | | | |
 </details>
+
+<details>
+<summary><b>8. Heap Priority Queue [7 / 7]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ✅ | [](./08-Heap-Priority-Queue/01-Kth-Largest-Element_in_a_Stream/) | | | |
+| ✅ | [](./08-Heap-Priority-Queue/02-Last-Stone-Weight/) | | | |
+| ✅ | [](/08-Heap-Priority-Queue/03-K-Closest-Points-to-Origin/) | | | |
+| ✅ | [](/08-Heap-Priority-Queue/04-Kth-Largest-Element-In-An-Array/) | | | |
+| ✅ | [](/08-Heap-Priority-Queue/05-Task-Scheduler/) | | | |
+| ✅ | [](/08-Heap-Priority-Queue/06-Design-Twitter/) | | | |
+| ✅ | [](/08-Heap-Priority-Queue/07-Find-Median-From-Data-Stream/) | | | |
+
+</details>
+
+
+<details>
+<summary><b>17. Math and Geometry [8 / 8]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+</details>
+
+
+
+<details>
+<summary><b>18. Bit-Manipulation [7 / 7]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+| ✅ | []() | | | |
+</details>
+
 
 <!--
 ## 📈 Progress Tracker
