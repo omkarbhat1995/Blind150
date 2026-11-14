@@ -105,7 +105,7 @@ pytest -v
 | ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | Python | $O(n)$ | $O(m)$ |
 | ✅ | [Longest Repeating Character Replacement](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) |  Python | $O(n)$ | $O(1)$ |
 | ✅ | [Permutation in String](./03-Sliding-Window//04-Permutation-in-String/) | Python | $O(l_1 + l_2)$ | $O(1)$ |
-| ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | Python | $O(|s| + |t|)$ | $O(1)$ |
+| ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | Python | $O(\|s\| + \|t\|)$ | $O(1)$ |
 | ✅ | [Sliding Window Maximum](./03-Sliding-Window//06-Sliding-Window-Maximum/) | Python | $O(n)$ | $O(k)$ |
 </details>
 
