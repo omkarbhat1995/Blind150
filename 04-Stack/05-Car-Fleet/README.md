@@ -33,3 +33,11 @@ To determine if a car will catch up to the car ahead of it, we need to calculate
 ## Complexity
 - **Time Complexity:** O(n log n) - Sorting the array of cars takes O(n log n) time. The subsequent stack iteration takes exactly O(n) time.
 - **Space Complexity:** O(n) - We allocate O(n) space to store the pairs of positions and speeds, as well as O(n) space for the stack.
+
+## How to Run the Tests
+This directory contains a complete test suite using Python's built-in `unittest` framework.
+
+1. Ensure you have Python installed on your system.
+2. Open your terminal and navigate to the directory containing these files.
+3. Run the test file:
+`pytest .\test_solution.py -v`

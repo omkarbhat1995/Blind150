@@ -22,3 +22,11 @@ A brute-force solution would expand outward from every bar to find the maximum w
 ## Complexity
 - **Time Complexity:** O(n) - We iterate through the array once, and each bar is pushed and popped from the stack at most once.
 - **Space Complexity:** O(n) - In the worst-case scenario (e.g., strictly increasing heights), the stack will grow proportionally to the number of bars.
+
+## How to Run the Tests
+This directory contains a complete test suite using Python's built-in `unittest` framework.
+
+1. Ensure you have Python installed on your system.
+2. Open your terminal and navigate to the directory containing these files.
+3. Run the test file:
+`pytest .\test_solution.py -v`

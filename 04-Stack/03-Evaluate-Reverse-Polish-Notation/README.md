@@ -28,3 +28,11 @@ Reverse Polish Notation is naturally solved using a **Stack**.
 ## Complexity
 - **Time Complexity:** O(n) - We traverse the list of tokens exactly once. Stack push and pop operations take O(1) time.
 - **Space Complexity:** O(n) - In the worst-case scenario (an expression with many numbers before operations), the stack will grow proportionally to the number of tokens.
+
+## How to Run the Tests
+This directory contains a complete test suite using Python's built-in `unittest` framework.
+
+1. Ensure you have Python installed on your system.
+2. Open your terminal and navigate to the directory containing these files.
+3. Run the test file:
+`pytest .\test_solution.py -v`
