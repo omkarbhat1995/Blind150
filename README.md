@@ -61,7 +61,7 @@ pytest -v
 | Status | Category         | Problem                         | Language |
 |---------|------------------|---------------------------------|----------|
 | ✅      | Arrays & Hashing   | Contains Duplicate              | Python   |
-| ✅      | Arrays & Hashing   | Valid Anagram                   | Python   |
+| ✅      |                    | Valid Anagram                   | Python   |
 | ✅      | Two Pointers       | Valid Palindrome                | Python   |
 | ✅      | Sliding Window     | Best Time to Buy and Sell Stock | Python   |
 | ✅      | Stack              | Valid Parentheses               | Python   | 
