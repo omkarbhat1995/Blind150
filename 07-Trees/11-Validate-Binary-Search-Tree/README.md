@@ -7,7 +7,7 @@ A valid BST is defined as follows:
 - The left subtree of a node contains only nodes with keys **less than** the node's key.
 - The right subtree of a node contains only nodes with keys **greater than** the node's key.
 - Both the left and right subtrees must also be binary search trees.
-
+---
 ### Constraints
 - The number of nodes in the tree is in the range `[1, 1000]`.
 - `-1000 <= Node.val <= 1000`
@@ -23,7 +23,16 @@ To solve this optimally in a single pass:
 3. When we move to the **left child**, the upper bound updates: the child's value must be strictly less than the current node's value (`high = node.val`).
 4. When we move to the **right child**, the lower bound updates: the child's value must be strictly greater than the current node's value (`low = node.val`).
 5. If any node violates its bounds, we return `False`.
-
+---
 ## Complexity Analysis
 - **Time Complexity:** $O(n)$ where $n$ is the number of nodes in the tree, as we visit each node exactly once.
 - **Space Complexity:** $O(h)$ where $h$ is the height of the tree, representing the memory consumed by the recursive call stack. In the worst case (a completely skewed tree), this takes $O(n)$ space.
+
+---
+
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```

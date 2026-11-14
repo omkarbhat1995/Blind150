@@ -7,7 +7,7 @@ A valid BST satisfies the following constraints:
 - The left subtree of every node contains only nodes with keys **less than** the node's key.
 - The right subtree of every node contains only nodes with keys **greater than** the node's key.
 - Both the left and right subtrees are also binary search trees.
-
+---
 ### Constraints
 - The number of nodes in the tree is `n`.
 - `1 <= k <= n <= 1000`
@@ -25,7 +25,15 @@ Instead of traversing the entire tree, storing all elements in an array, and ret
 4. We then move to the right child of the popped node and repeat the process.
 
 This **early-termination** mechanism guarantees we only visit exactly `k` nodes.
-
+---
 ## Complexity Analysis
 - **Time Complexity:** $O(h + k)$ where $h$ is the height of the tree. In the worst case (a highly skewed tree), this takes $O(n)$. In a balanced tree, it takes $O(\log n + k)$.
 - **Space Complexity:** $O(h)$ to maintain the explicit call stack, reflecting the depth of the tree branches.
+---
+
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```

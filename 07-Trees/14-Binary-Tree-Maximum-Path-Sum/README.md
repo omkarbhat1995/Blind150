@@ -6,7 +6,7 @@ Given the root of a non-empty binary tree, return the maximum path sum of any no
 A path in a binary tree is defined as a sequence of nodes where each pair of adjacent nodes has an edge connecting them. A node can not appear in the sequence more than once. The path does not necessarily need to include the root node.
 
 The path sum is calculated as the sum of the node values within that path sequence.
-
+---
 ### Constraints
 - The number of nodes in the tree is in the range `[1, 1000]`.
 - `-1000 <= Node.val <= 1000`
@@ -22,7 +22,15 @@ Because a path can start and end at any node in the tree, we look at this proble
 4. We compare this combined path sum against a global maximum tracking variable (`max_sum`) and update it accordingly.
 
 This allows us to check all paths that bridge across distinct subtrees without recalculating nodes multiple times.
-
+---
 ## Complexity Analysis
 - **Time Complexity:** $O(n)$ where $n$ is the number of nodes in the tree. We visit each individual node exactly once.
 - **Space Complexity:** $O(h)$ where $h$ is the height of the tree, representing the allocation on the recursive call stack. In the worst-case scenario (a skewed tree), this degrades to $O(n)$.
+---
+
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```

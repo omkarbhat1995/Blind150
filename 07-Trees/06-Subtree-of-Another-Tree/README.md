@@ -8,7 +8,7 @@
 Given the roots of two binary trees `root` and `subRoot`, return `true` if there is a subtree of `root` with the same structure and node values of `subRoot` and `false` otherwise.
 
 A subtree of a binary tree `tree` is a tree that consists of a node in `tree` and all of this node's descendants. The tree `tree` could also be considered as a subtree of itself.
-
+---
 **Example 1:**
 * **Input:** `root = [1,2,3,4,5]`, `subRoot = [2,4,5]`
 * **Output:** `true`
@@ -16,7 +16,7 @@ A subtree of a binary tree `tree` is a tree that consists of a node in `tree` an
 **Example 2:**
 * **Input:** `root = [1,2,3,4,5,null,null,6]`, `subRoot = [2,4,5]`
 * **Output:** `false`
-
+---
 ## Approach
 
 This problem can be broken down into two recursive functions:
@@ -26,7 +26,16 @@ This problem can be broken down into two recursive functions:
     * If `root` is null, it cannot contain a non-null subtree (return `False`).
     * If `isSameTree(root, subRoot)` is true, we found a match (return `True`).
     * Otherwise, recurse down to both `root.left` and `root.right` to see if the match exists deeper in the tree.
-
+---
 ## Complexity Analysis
 * **Time Complexity:** $O(m \times n)$ where $n$ is the number of nodes in the main tree and $m$ is the number of nodes in the `subRoot` tree. In the worst case, for every node in `root`, we perform an $O(m)$ comparison.
 * **Space Complexity:** $O(h)$ where $h$ is the height of the tree, representing the recursion stack depth.
+
+---
+
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```
