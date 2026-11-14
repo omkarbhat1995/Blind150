@@ -61,7 +61,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `11 / 150`
+**Overall Completion:** `82 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -216,13 +216,14 @@ pytest -v
 
 
 <details>
-<summary><b>10. Tries [3 / 3]</b></summary>
+<summary><b>10. Tries [0 / 3]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [](/10-Tries/01-Implement-Trie-Prefix-Tree/) | Python | | |
-| ⬜️ | [](/10-Tries) | Python | | |
+| ⬜️ | [Implement Trie Prefix Tree](/10-Tries/01-Implement-Trie-Prefix-Tree/) | Python | | |
+| ⬜️ | [Design Add And Search Words Data Structure](/10-Tries/02-Design-Add-And-Search-Words-Data-Structure/) | Python | | |
+| ⬜️ | [Word Search II](/10-Tries/03-Word-Search-II/) | Python | | |
 </details>
 
 
@@ -233,8 +234,19 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [](/11-Graphs/01-Number-of-Islands/) | Python | | |
-| ⬜️ | [](/11-Graphs) | Python | | |
+| ⬜️ | [Number of Islands](/11-Graphs/01-Number-of-Islands/) | Python | | |
+| ⬜️ | [Max Area of Island](/11-Graphs/02-Max-Area-of-Island/) | Python | | |
+| ⬜️ | [Clone Graph](/11-Graphs/03-Clone-Graph/) | Python | | |
+| ⬜️ | [Walls And Gates](/11-Graphs/04-Walls-And-Gates/) | Python | | |
+| ⬜️ | [Rotting Oranges](/11-Graphs/05-Rotting-Oranges/) | Python | | |
+| ⬜️ | [Pacific Atlantic Water Flow](/11-Graphs/06-Pacific-Atlantic-Water-Flow/) | Python | | |
+| ⬜️ | [Surrounded Regions](/11-Graphs/07-Surrounded-Regions/) | Python | | |
+| ⬜️ | [Course Schedule](/11-Graphs/08-Course-Schedule/) | Python | | |
+| ⬜️ | [Course Schedule II](/11-Graphs/09-Course-Schedule-II/) | Python | | |
+| ⬜️ | [Graph Valid Tree](/11-Graphs/10-Graph-Valid-Tree/) | Python | | |
+| ⬜️ | [Number of Connected Components In An Undirected Graph](/11-Graphs/11-Number-of-Connected-Components-In-An-Undirected-Graph/) | Python | | |
+| ⬜️ | [Redundant Connection](/11-Graphs/12-Redundant-Connection/) | Python | | |
+| ⬜️ | [Word Ladder](/11-Graphs/13-Word-Ladder/) | Python | | |
 </details>
 
 <details>
@@ -243,9 +255,12 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [](/12-Adv-Graphs/01-Network-Delay-Time/) | Python | | |
-| ⬜️ | [](/12-Adv-Graphs) | Python | | |
-
+| ⬜️ | [Network Delay Time](/12-Adv-Graphs/01-Network-Delay-Time/) | Python | | |
+| ⬜️ | [Reconstruct Itinerary](/12-Adv-Graphs/02-Reconstruct-Itinerary/) | Python | | |
+| ⬜️ | [Min Cost to Connect All Points](/12-Adv-Graphs/03-Min-Cost-to-Connect-All-Points/) | Python | | |
+| ⬜️ | [Swim In Rising Water](/12-Adv-Graphs/04-Swim-In-Rising-Water/) | Python | | |
+| ⬜️ | [Alien Dictionary](/12-Adv-Graphs/05-Alien-Dictionary/) | Python | | |
+| ⬜️ | [Cheapest Flights Within K-Stops](/12-Adv-Graphs/06-Cheapest-Flights-Within-K-Stops/) | Python | | |
 </details>
 
 
@@ -255,8 +270,18 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [](/13-1-D-Dynamic-Programming/01-Climbing-Stairs/) | Python | | |
-| ⬜️ | [](/13-1-D-Dynamic-Programming) | Python | | |
+| ⬜️ | [Climbing Stairs](/13-1-D-Dynamic-Programming/01-Climbing-Stairs/) | Python | | |
+| ⬜️ | [Min Cost Climbing Stairs](/13-1-D-Dynamic-Programming/02-Min-Cost-Climbing-Stairs/) | Python | | |
+| ⬜️ | [House Robber](/13-1-D-Dynamic-Programming/03-House-Robber/) | Python | | |
+| ⬜️ | [House Robber II](/13-1-D-Dynamic-Programming/04-House-Robber-II/) | Python | | |
+| ⬜️ | [Longest Palindromic Substring](/13-1-D-Dynamic-Programming/05-Longest-Palindromic-Substring/) | Python | | |
+| ⬜️ | [Palindromic Substrings](/13-1-D-Dynamic-Programming/06-Palindromic-Substrings/) | Python | | |
+| ⬜️ | [Decode Ways](/13-1-D-Dynamic-Programming/07-Decode-Ways/) | Python | | |
+| ⬜️ | [Coin Change](/13-1-D-Dynamic-Programming/08-Coin-Change/) | Python | | |
+| ⬜️ | [Maximum Product Subarray](/13-1-D-Dynamic-Programming/09-Maximum-Product-Subarray/) | Python | | |
+| ⬜️ | [Word Break](/13-1-D-Dynamic-Programming/10-Word-Break/) | Python | | |
+| ⬜️ | [Longest Increasing Subsequence](/13-1-D-Dynamic-Programming/11-Longest-Increasing-Subsequence/) | Python | | |
+| ⬜️ | [Patition Equal Subset Sum](/13-1-D-Dynamic-Programming/12-Patition-Equal-Subset-Sum/) | Python | | |
 
 </details>
 
