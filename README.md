@@ -145,16 +145,16 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Reverse Linked List](./06-Linked-List/01-Reverse-Linked-List) | Python | $O(n)$ | $O(1)$ |
-| ✅ | [Merge Two Sorted Lists](./06-Linked-List/02-Merge-Two-Sorted-Linked-Lists/) | Python | | |
-| ✅ | [Linked List Cycle Detection](./06-Linked-List/03-Linked-List-Cycle-Detection) | Python | | |
-| ✅ | [Reorder Linked List](./06-Linked-List/04-Reorder-Linked-List/) | Python | | |
-| ✅ | [Remove Nth Node From End of List](./06-Linked-List/05-Remove-Nth-Node-From-End-of-List/) | Python | | |
-| ✅ | [Copy Linked List with Random Pointer](./06-Linked-List/06-Copy-Linked-List-with-Random-Pointer/) | Python | | |
-| ✅ | [Add Two Numbers](./06-Linked-List/07-Add-Two-Numbers/) | Python | | |
-| ✅ | [Find the Duplicate Number](./06-Linked-List/08-Find-the-Duplicate-Number/) | Python | | |
-| ✅ | [LRU Cache](./06-Linked-List/09-LRU-Cache/) | Python | | |
-| ✅ | [Merge K-Sorted Linked Lists](./06-Linked-List/10-Merge-K-Sorted-Linked-Lists/) | Python | | |
-| ✅ | [Reverse Nodes in K-Group](./06-Linked-List/11-Reverse-Nodes-in-K-Group/) | Python | | |
+| ✅ | [Merge Two Sorted Lists](./06-Linked-List/02-Merge-Two-Sorted-Linked-Lists/) | Python | $O(n+m)$ | $O(1)$ |
+| ✅ | [Linked List Cycle Detection](./06-Linked-List/03-Linked-List-Cycle-Detection) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Reorder Linked List](./06-Linked-List/04-Reorder-Linked-List/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Remove Nth Node From End of List](./06-Linked-List/05-Remove-Nth-Node-From-End-of-List/) | Python | $O(sz)$ | $O(1)$ |
+| ✅ | [Copy Linked List with Random Pointer](./06-Linked-List/06-Copy-Linked-List-with-Random-Pointer/) | Python | $O(n)$ | $O(n)$ |
+| ✅ | [Add Two Numbers](./06-Linked-List/07-Add-Two-Numbers/) | Python | $O(\max(m,n))$ | $O(\max(m,n))$ |
+| ✅ | [Find the Duplicate Number](./06-Linked-List/08-Find-the-Duplicate-Number/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [LRU Cache](./06-Linked-List/09-LRU-Cache/) | Python | $O(1)$ | $O(capacity)$ |
+| ✅ | [Merge K-Sorted Linked Lists](./06-Linked-List/10-Merge-K-Sorted-Linked-Lists/) | Python | $O(n\log(k))$ | $O(k)$ |
+| ✅ | [Reverse Nodes in K-Group](./06-Linked-List/11-Reverse-Nodes-in-K-Group/) | Python | $O(n)$ | $O(1)$ |
 </details>
 
 <details>
@@ -164,11 +164,11 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Invert Binary Tree](./07-Trees/01-Invert-Binary-Tree) | Python | $O(n)$ | $O(n)$ |
-| ✅ | [Maximum Depth of Binary Tree](./07-Trees/02-Maximum-Depth-of-Binary-Tree/) | Python | | |
-| ✅ | [Diameter-of-Binary-Tree](./07-Trees/03-Diameter-of-Binary-Tree/) | Python | | |
-| ✅ | [Balanced-Binary-Tree](./07-Trees/04-Balanced-Binary-Tree/) | Python | | |
-| ✅ | [Same-Tree](./07-Trees/05-Same-Tree/) | Python | | |
-| ✅ | [Subtree-of-Another-Tree](./07-Trees/06-Subtree-of-Another-Tree/) | Python | | |
+| ✅ | [Maximum Depth of Binary Tree](./07-Trees/02-Maximum-Depth-of-Binary-Tree/) | Python | $O(n)$ | $O(h)$ |
+| ✅ | [Diameter-of-Binary-Tree](./07-Trees/03-Diameter-of-Binary-Tree/) | Python | $O(n)$ | $O(h)$ |
+| ✅ | [Balanced-Binary-Tree](./07-Trees/04-Balanced-Binary-Tree/) | Python | $O(n)$ | $O(h)$ |
+| ✅ | [Same-Tree](./07-Trees/05-Same-Tree/) | Python | $O(n)$ | $O(h)$ |
+| ✅ | [Subtree-of-Another-Tree](./07-Trees/06-Subtree-of-Another-Tree/) | Python | $O(m*n)$ | $O(h)$ |
 | ✅ | [Lowest-Common-Ancestor-of-a-Binary-Search-Tree](./07-Trees/07-Lowest-Common-Ancestor-of-a-Binary-Search-Tree/) | Python | | |
 | ✅ | [Binary-Tree-Level-Order-Traversal](./07-Trees/08-Binary-Tree-Level-Order-Traversal/) | Python | | |
 | ✅ | [Binary-Tree-Right-Side-View](./07-Trees/09-Binary-Tree-Right-Side-View/) | Python | | |
