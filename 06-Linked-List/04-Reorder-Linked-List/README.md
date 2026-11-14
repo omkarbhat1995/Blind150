@@ -37,3 +37,4 @@ This problem is optimally solved by breaking it down into three distinct, classi
 To run the custom test suite:
 ```bash
 pytest test_solution.py -v
+```

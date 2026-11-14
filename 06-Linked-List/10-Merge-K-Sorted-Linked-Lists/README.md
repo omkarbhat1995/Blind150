@@ -21,3 +21,11 @@ Comparing the heads of `k` lists simultaneously would normally take $O(k)$ time 
 ## Complexity
 - **Time Complexity:** $O(N \log k)$ where `N` is the total number of nodes across all lists, and `k` is the number of linked lists. Each pop and push operation on the heap takes $O(\log k)$ time.
 - **Space Complexity:** $O(k)$. The heap will store at most `k` elements at any given time (one node from each list).
+
+## How to Run the Tests
+This directory contains a complete test suite using Python's built-in `unittest` framework.
+
+1. Ensure you have Python installed on your system.
+2. Open your terminal and navigate to the directory containing these files.
+3. Run the test file:
+`pytest .\test_solution.py -v`
