@@ -368,7 +368,7 @@ pytest -v
 | ✅ | [Reverse Bits](./18-Bit-Manipulation/04-Reverse-Bits/) | Python | $O(1)$ | $O(1)$ |
 | ✅ | [Missing Number](./18-Bit-Manipulation/05-Missing-Number/) | Python | $O(n)$ | $O(1)$ |
 | ✅ | [Sum of Two Integers](./18-Bit-Manipulation/06-Sum-of-Two-Integers/) | Python | $O(1)$ | $O(1)$ |
-| ✅ | [Reverse Integer](./18-Bit-Manipulation/07-Reverse-Integer/) | Python | $O(\log_10(x))$ | $O(1)$ |
+| ✅ | [Reverse Integer](./18-Bit-Manipulation/07-Reverse-Integer/) | Python | $O(\log_{10}(x))$ | $O(1)$ |
 </details>
 
 
