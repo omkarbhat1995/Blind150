@@ -202,9 +202,16 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [](/09-Backtracking/01-Subsets/) | Python | | |
-
-
+| ⬜️ | [Subsets](/09-Backtracking/01-Subsets/) | Python | | |
+| ⬜️ | [Combination Sum](/09-Backtracking/02-Combination-Sum/) | Python | | |
+| ⬜️ | [Combination Sum II](/09-Backtracking/03-Combination-Sum-II/) | Python | | |
+| ⬜️ | [Permutations](/09-Backtracking/04-Permutations/) | Python | | |
+| ⬜️ | [Generate Parentheses](/09-Backtracking/06-Generate-Parentheses/) | Python | | |
+| ⬜️ | [Word Search](/09-Backtracking/07-Word-Search/) | Python | | |
+| ⬜️ | [Palindrome Partitioning](/09-Backtracking/08-Palindrome-Partitioning/) | Python | | |
+| ⬜️ | [Letter Combination of a Phone Number](/09-Backtracking/09-Letter-Combination-of-a-Phone-Number/) | Python | | |
+| ⬜️ | [N-Queens](/09-Backtracking/10-N-Queens/) | Python | | |
+| ⬜️ | [](/09-Backtracking) | Python | | |
 </details>
 
 
