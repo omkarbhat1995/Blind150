@@ -65,15 +65,20 @@ pytest -v
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
-<summary><b>1. Arrays & Hashing [2 / 9]</b></summary>
+<summary><b>1. Arrays & Hashing [9 / 9]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Contains Duplicate](./01-Arrays-and-Hashing/01-Contains-Duplicate) | Python | $O(n)$ | $O(n)$ |
 | ✅ | [Valid Anagram](./01-Arrays-and-Hashing/02-Valid-Anagram) | Python | $O(n + m)$ | $O(1)$ |
-| ⬜️ | Two Sum | | | |
-| ⬜️ | Group Anagrams | | | |
+| ✅ | Two Sum | Python  | $O(n)$ | $O(n)$ |
+| ✅ | Group Anagrams | Python  | $O(m*n)$ | $O(m*n)$ |
+| ✅ | Top-K Frequent Elements | Python  | $O(n)$ | $O(n)$ |
+| ✅ | Encode Decode Strings | Python  | $O(n)$ | $O(n)$ |
+| ✅ | Product of Array Except Self | Python  |$O(n)$ | $O(1)$ |
+| ✅ | Valid Sudoku | Python  | $O(1)$ | $O(1)$ |
+| ✅ | Longest Consecutive Sequence | Python  | $O(n)$ | $O(n)$ |
 
 </details>
 
