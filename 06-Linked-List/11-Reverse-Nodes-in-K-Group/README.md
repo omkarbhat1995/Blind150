@@ -23,7 +23,7 @@ To achieve $O(1)$ space complexity, we must reverse the groups in place.
 4. **Stitching:** We carefully update the pointers of the node *before* the group (`groupPrev`) and the node *after* the group (`groupNext`) to reconnect our newly reversed section back into the main list.
 5. **Advancing:** We update our `groupPrev` to point to the last node of our newly reversed group, and repeat the process.
 ---
-## Complexity
+## Complexity Analysis
 - **Time Complexity:** $O(n)$ where $n$ is the total number of nodes in the linked list. Each node is visited twice at most (once when counting `k`, and once during reversal).
 - **Space Complexity:** $O(1)$. We only use a few temporary pointers to manipulate the list in place.
 ---

@@ -9,7 +9,7 @@ You are given a signed 32-bit integer `x`.
 Return `x` after reversing each of its digits. After reversing, if `x` goes outside the signed 32-bit integer range $[-2^{31}, 2^{31} - 1]$, then return `0` instead.
 
 **Constraint:** Solve the problem without using integers that are outside the signed 32-bit integer range.
-
+---
 ## Approach
 To reverse an integer mathematically without converting it to a string, we can repeatedly "pop" the last digit off the input number and "push" it onto the back of our result variable.
 
@@ -20,7 +20,14 @@ To reverse an integer mathematically without converting it to a string, we can r
    * If `res == 214748364`, multiplying by 10 gives `2147483640`. Adding a `pop` digit greater than `7` will overflow. 
 
 *(Note: In Python, `%` and `//` handle negative numbers differently than C++/Java. To simplify, we can work with the absolute value of `x` and apply the negative sign at the very end.)*
-
-## Complexity
+---
+## Complexity Analysis
 * **Time Complexity:** $O(\log_{10}(x))$ - The number of digits in $x$ determines the number of iterations. Since $x$ is a 32-bit integer, it has at most 10 digits, making this effectively $O(1)$ constant time.
 * **Space Complexity:** $O(1)$ - We only use a few variables for the calculation.
+---
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```

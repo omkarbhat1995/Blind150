@@ -7,7 +7,7 @@
 Given an integer `n`, count the number of `1`'s in the binary representation of every number in the range `[0, n]`.
 
 Return an array `output` where `output[i]` is the number of `1`'s in the binary representation of `i`.
-
+---
 ## Approach
 While we could calculate the Hamming weight for each number individually using a loop, we can achieve an optimal linear time solution by looking for a pattern using **Dynamic Programming**.
 
@@ -22,7 +22,14 @@ Notice that:
 We can express this relation as:
 `dp[i] = dp[i >> 1] + (i & 1)`
 Where `i >> 1` divides `i` by 2, and `i & 1` checks if `i` is odd (returns `1` if odd, `0` if even).
-
-## Complexity
+---
+## Complexity  Analysis
 * **Time Complexity:** O(n) - We calculate the bits for each number from `1` to `n` in exactly one pass, doing O(1) work per number.
 * **Space Complexity:** O(n) - We allocate an array of size `n + 1` to store and return the result.
+---
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```

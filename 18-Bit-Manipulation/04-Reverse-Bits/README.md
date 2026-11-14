@@ -5,7 +5,7 @@
 
 ## Problem Description
 Given a 32-bit unsigned integer `n`, reverse the bits of the binary representation of `n` and return the result.
-
+---
 ## Approach
 To reverse the bits of a 32-bit integer, we can process the number bit by bit, from the least significant bit (LSB) to the most significant bit (MSB).
 
@@ -16,7 +16,14 @@ To reverse the bits of a 32-bit integer, we can process the number bit by bit, f
    * Add the extracted bit to `res` using bitwise OR (`res | bit`).
    * Shift `n` to the right by 1 position (`n >> 1`) to process the next bit in the sequence.
 3. Return the fully constructed `res`.
-
-## Complexity
+---
+## Complexity  Analysis
 * **Time Complexity:** $O(1)$ - The loop always runs exactly 32 times regardless of the input size, meaning it executes in constant time.
 * **Space Complexity:** $O(1)$ - We only use a single variable (`res`) to store the reversed integer.
+---
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```
