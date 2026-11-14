@@ -169,15 +169,15 @@ pytest -v
 | ✅ | [Balanced-Binary-Tree](./07-Trees/04-Balanced-Binary-Tree/) | Python | $O(n)$ | $O(h)$ |
 | ✅ | [Same-Tree](./07-Trees/05-Same-Tree/) | Python | $O(n)$ | $O(h)$ |
 | ✅ | [Subtree-of-Another-Tree](./07-Trees/06-Subtree-of-Another-Tree/) | Python | $O(m*n)$ | $O(h)$ |
-| ✅ | [Lowest-Common-Ancestor-of-a-Binary-Search-Tree](./07-Trees/07-Lowest-Common-Ancestor-of-a-Binary-Search-Tree/) | Python | | |
-| ✅ | [Binary-Tree-Level-Order-Traversal](./07-Trees/08-Binary-Tree-Level-Order-Traversal/) | Python | | |
-| ✅ | [Binary-Tree-Right-Side-View](./07-Trees/09-Binary-Tree-Right-Side-View/) | Python | | |
-| ✅ | [Count-Good-Nodes-In-Binary-Tree](./07-Trees/10-Count-Good-Nodes-In-Binary-Tree/) | Python | | |
-| ✅ | [Validate-Binary-Search-Tree](./07-Trees/11-Validate-Binary-Search-Tree/) | Python | | |
-| ✅ | [Kth-Smallest-Element-In-a-Bst](./07-Trees/12-Kth-Smallest-Element-In-a-Bst/) | Python | | |
-| ✅ | [Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal](./07-Trees/13-Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal/) | Python | | |
-| ✅ | [Binary-Tree-Maximum-Path-Sum](./07-Trees/14-Binary-Tree-Maximum-Path-Sum/) | Python | | |
-| ✅ | [Serialize-And-Deserialize-Binary-Tree](./07-Trees/15-Serialize-And-Deserialize-Binary-Tree/) | Python | | |
+| ✅ | [Lowest-Common-Ancestor-of-a-Binary-Search-Tree](./07-Trees/07-Lowest-Common-Ancestor-of-a-Binary-Search-Tree/) | Python | $O(h)$ | $O(h)$ |
+| ✅ | [Binary-Tree-Level-Order-Traversal](./07-Trees/08-Binary-Tree-Level-Order-Traversal/) | Python | $O(n)$ | $O(w)$ |
+| ✅ | [Binary-Tree-Right-Side-View](./07-Trees/09-Binary-Tree-Right-Side-View/) | Python | $O(n)$ | $O(w)$ |
+| ✅ | [Count-Good-Nodes-In-Binary-Tree](./07-Trees/10-Count-Good-Nodes-In-Binary-Tree/) | Python | $O(n)$ | $O(h)$ |
+| ✅ | [Validate-Binary-Search-Tree](./07-Trees/11-Validate-Binary-Search-Tree/) | Python | $O(n)$ | $O(h)$ |
+| ✅ | [Kth-Smallest-Element-In-a-Bst](./07-Trees/12-Kth-Smallest-Element-In-a-Bst/) | Python | $O(h+k)$ | $O(h)$ |
+| ✅ | [Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal](./07-Trees/13-Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal/) | Python | $O(n)$ | $O(n)$ |
+| ✅ | [Binary-Tree-Maximum-Path-Sum](./07-Trees/14-Binary-Tree-Maximum-Path-Sum/) | Python | $O(n)$ | $O(h)$ |
+| ✅ | [Serialize-And-Deserialize-Binary-Tree](./07-Trees/15-Serialize-And-Deserialize-Binary-Tree/) | Python | $O(n)$ | $O(n)$ |
 </details>
 
 <details>
@@ -186,13 +186,13 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ✅ | [Kth-Largest Element in a Stream](./08-Heap-Priority-Queue/01-Kth-Largest-Element_in_a_Stream/) | Python | | |
-| ✅ | [Last Stone Weight](./08-Heap-Priority-Queue/02-Last-Stone-Weight/) | Python | | |
-| ✅ | [K-Closest Points to Origin](/08-Heap-Priority-Queue/03-K-Closest-Points-to-Origin/) | Python | | |
-| ✅ | [Kth-Largest Element In An Array](/08-Heap-Priority-Queue/04-Kth-Largest-Element-In-An-Array/) | Python | | |
-| ✅ | [Task Scheduler](/08-Heap-Priority-Queue/05-Task-Scheduler/) | Python | | |
-| ✅ | [Design Twitter](/08-Heap-Priority-Queue/06-Design-Twitter/) | Python | | |
-| ✅ | [Find Median From Data Stream](/08-Heap-Priority-Queue/07-Find-Median-From-Data-Stream/) | Python | | |
+| ✅ | [Kth-Largest Element in a Stream](./08-Heap-Priority-Queue/01-Kth-Largest-Element_in_a_Stream/) | Python | $O(n\log(k))$ | $O(k)$ |
+| ✅ | [Last Stone Weight](./08-Heap-Priority-Queue/02-Last-Stone-Weight/) | Python | $O(n\log(n))$ | $O(n)$ or $O(1)$ |
+| ✅ | [K-Closest Points to Origin](/08-Heap-Priority-Queue/03-K-Closest-Points-to-Origin/) | Python | $O(n\log(k))$ | $O(k)$ |
+| ✅ | [Kth-Largest Element In An Array](/08-Heap-Priority-Queue/04-Kth-Largest-Element-In-An-Array/) | Python | $O(n\log(n))$ and $O(\log(k))$ | $O(n)$ |
+| ✅ | [Task Scheduler](/08-Heap-Priority-Queue/05-Task-Scheduler/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Design Twitter](/08-Heap-Priority-Queue/06-Design-Twitter/) | Python | $O(f)$ | $O(T+(U*F))$ |
+| ✅ | [Find Median From Data Stream](/08-Heap-Priority-Queue/07-Find-Median-From-Data-Stream/) | Python | $O(\log(n))$ | $O(n)$ |
 
 </details>
 

@@ -31,8 +31,8 @@ medianFinder.findMedian(); // return 2.0
 ## Complexity Analysis   
 
 ### Time Complexity:
-    *addNum: $O(\log n)$ to push and pop from the heaps.
-    *findMedian: $O(1)$ to retrieve the root of the heaps.
+   - addNum: $O(\log n)$ to push and pop from the heaps.
+   - findMedian: $O(1)$ to retrieve the root of the heaps.
 ### Space Complexity: $O(n)$ to store all numbers from the data stream in the heaps.
 ---
 
