@@ -27,4 +27,4 @@ By always performing binary search on the **smaller** of the two arrays, we ensu
 
 ## Running Tests
 Run the following command in your terminal to execute the test suite:
-`python -m unittest test_median.py`
+`python -m unittest test_solution.py`
