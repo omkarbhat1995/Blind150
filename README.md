@@ -134,7 +134,7 @@ pytest -v
 | ✅ | [Koko Eating Bananas](./05-Binary-Search/03-Koko-Eating-Bananas/) | Python | $O(n\log(m))$ | $O(n)$ |
 | ✅ | [Find Minimum in Rotated Sorted Array](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | Python | $O(\log(n))$ | $O(1)$ |
 | ✅ | [Search in Rotated Sorted Array](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | Python | $O(\log(n))$ | $O(1)$ |
-| ✅ | [Time Based Key Value Store](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | Python | $O(1) and $O(\log(n))$ | $O(m)$ |
+| ✅ | [Time Based Key Value Store](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | Python | $O(1)$ and $O(\log(n))$ | $O(m)$ |
 | ✅ | [Median of Two Sorted Arrays](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | Python | $O(\log(\min(m,n)))$ | $O(1)$ |
 </details>
 
@@ -344,14 +344,14 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ✅ | [Rotate Image](./17-Math-and-Geometry/01-Rotate-Image/) | Python | | |
-| ✅ | [Spiral Matrix](./17-Math-and-Geometry/02-Spiral-Matrix/) | Python | | |
-| ✅ | [Set Matrix Zeroes](./17-Math-and-Geometry/03-Set-Matrix-Zeroes/) | Python | | |
-| ✅ | [Happy Number](./17-Math-and-Geometry/04-Happy-Number/) | Python | | |
-| ✅ | [PLus One](./17-Math-and-Geometry/05-PLus-One/) | Python | | |
-| ✅ | [Pow](./17-Math-and-Geometry/06-Pow/) | Python | | |
-| ✅ | [Multiply Strings](./17-Math-and-Geometry/07-Multiply-Strings/) | Python | | |
-| ✅ | [Detect Squares](./17-Math-and-Geometry/08-Detect-Squares/) | Python | | |
+| ✅ | [Rotate Image](./17-Math-and-Geometry/01-Rotate-Image/) | Python | $O(n^2)$ | $O(1)$ |
+| ✅ | [Spiral Matrix](./17-Math-and-Geometry/02-Spiral-Matrix/) | Python | $O(m*n)$ | $O(1)$ |
+| ✅ | [Set Matrix Zeroes](./17-Math-and-Geometry/03-Set-Matrix-Zeroes/) | Python | $O(m*n)$ | $O(1)$ |
+| ✅ | [Happy Number](./17-Math-and-Geometry/04-Happy-Number/) | Python | $O(\log(n))$ | $O(1)$ |
+| ✅ | [PLus One](./17-Math-and-Geometry/05-PLus-One/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Pow](./17-Math-and-Geometry/06-Pow/) | Python | $O(\log(n))$ | $O(1)$ |
+| ✅ | [Multiply Strings](./17-Math-and-Geometry/07-Multiply-Strings/) | Python | $O(m*n)$ | $O(m+n)$ |
+| ✅ | [Detect Squares](./17-Math-and-Geometry/08-Detect-Squares/) | Python | $O(n)$ | $O(n)$ |
 </details>
 
 
@@ -362,13 +362,13 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ✅ | [Single Number](./18-Bit-Manipulation/01-Single-Number/) | Python | | |
-| ✅ | [Number of 1-Bits](./18-Bit-Manipulation/02-Number-of-1-Bits/) | Python | | |
-| ✅ | [Counting Bits](./18-Bit-Manipulation/03-Counting-Bits/) | Python | | |
-| ✅ | [Reverse Bits](./18-Bit-Manipulation/04-Reverse-Bits/) | Python | | |
-| ✅ | [Missing Number](./18-Bit-Manipulation/05-Missing-Number/) | Python | | |
-| ✅ | [Sum of Two Integers](./18-Bit-Manipulation/06-Sum-of-Two-Integers/) | Python | | |
-| ✅ | [Reverse Integer](./18-Bit-Manipulation/07-Reverse-Integer/) | Python | | |
+| ✅ | [Single Number](./18-Bit-Manipulation/01-Single-Number/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Number of 1-Bits](./18-Bit-Manipulation/02-Number-of-1-Bits/) | Python | $O(1)$ | $O(1)$ |
+| ✅ | [Counting Bits](./18-Bit-Manipulation/03-Counting-Bits/) | Python | $O(n)$ | $O(n)$ |
+| ✅ | [Reverse Bits](./18-Bit-Manipulation/04-Reverse-Bits/) | Python | $O(1)$ | $O(1)$ |
+| ✅ | [Missing Number](./18-Bit-Manipulation/05-Missing-Number/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Sum of Two Integers](./18-Bit-Manipulation/06-Sum-of-Two-Integers/) | Python | $O(1)$ | $O(1)$ |
+| ✅ | [Reverse Integer](./18-Bit-Manipulation/07-Reverse-Integer/) | Python | $O(\log_10(x))$ | $O(1)$ |
 </details>
 
 
