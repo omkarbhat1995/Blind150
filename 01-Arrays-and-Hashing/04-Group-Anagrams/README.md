@@ -50,3 +50,4 @@ To run the tests for this specific problem, execute the following command in you
 
 ```bash
 pytest 01-Arrays-and-Hashing/04-Group-Anagrams/test_solution.py -v
+```

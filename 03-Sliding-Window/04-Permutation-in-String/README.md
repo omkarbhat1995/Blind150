@@ -36,3 +36,11 @@ We create a window of length `s1.length` and slide it across `s2`. At each step,
 ### Complexity
 - **Time Complexity:** $O(l_1 + l_2)$ where $l_1$ and $l_2$ are the lengths of `s1` and `s2`. Comparing two arrays of fixed size 26 takes $O(1)$ time, so the window slides in linear time.
 - **Space Complexity:** $O(1)$ since we are strictly using frequency arrays of size 26, which do not scale with the size of the input strings.
+
+## How to Run the Tests
+This directory contains a complete test suite using Python's built-in `unittest` framework.
+
+1. Ensure you have Python installed on your system.
+2. Open your terminal and navigate to the directory containing these files.
+3. Run the test file:
+`pytest .\test_solution.py -v`

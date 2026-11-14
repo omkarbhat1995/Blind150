@@ -30,6 +30,10 @@ A palindrome is a string that reads the same forward and backward. It is also ca
 * **Time Complexity:** O(n), where n is the length of the string `s`. We traverse the string with two pointers at most once.
 * **Space Complexity:** O(1). We only use two pointers, requiring constant extra space, avoiding the need to build a new filtered string in memory.
 
-## How to Run Tests
-From the root directory, run the following command to execute the test suite for this problem:
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 02-Two-Pointers/01-Valid-Palindrome/test_solution.py -v`
+```
 

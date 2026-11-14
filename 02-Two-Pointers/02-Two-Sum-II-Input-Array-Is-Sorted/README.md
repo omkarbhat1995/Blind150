@@ -29,7 +29,7 @@ Because the input array is already sorted, we can solve this problem efficiently
 This project includes a test suite using Python's built-in `unittest` framework.
 
 1. Ensure you have Python installed on your system.
-2. Save the testing script as `test_two_sum.py`.
+2. Save the testing script as `test_solution.py`.
 3. Run the test file from your terminal:
-   `pytest 2-Two-Pointers/test_two_sum.py -v`
-   python -m unittest test_two_sum.py
+   `pytest 2-Two-Pointers/test_solution.py -v`
+   python -m unittest test_solution.py

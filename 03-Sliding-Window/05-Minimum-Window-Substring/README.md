@@ -42,3 +42,11 @@ This is solved efficiently using a **Sliding Window** and two hash maps (or arra
 ### Complexity
 - **Time Complexity:** $O(|s| + |t|)$ where $|s|$ and $|t|$ are the lengths of the strings. Each character in `s` is visited at most twice (once by the right pointer, once by the left).
 - **Space Complexity:** $O(1)$. While we use a Hash Map, the maximum number of unique characters is 52 (uppercase and lowercase English letters), which operates in $O(1)$ constant space.
+
+## How to Run the Tests
+This directory contains a complete test suite using Python's built-in `unittest` framework.
+
+1. Ensure you have Python installed on your system.
+2. Open your terminal and navigate to the directory containing these files.
+3. Run the test file:
+`pytest .\test_solution.py -v`

@@ -51,3 +51,4 @@ To run the tests for this specific problem, execute the following command in you
 
 ```bash
 pytest 01-Arrays-and-Hashing/09-Longest-Consecutive-Sequence/test_solution.py -v
+```

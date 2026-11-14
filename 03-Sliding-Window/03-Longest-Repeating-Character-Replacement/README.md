@@ -38,3 +38,11 @@ To optimize further, we don't even need to strictly decrement our historical `ma
 ### Complexity
 - **Time Complexity:** $O(n)$ where $n$ is the length of the string. Both the left and right pointers only move forward.
 - **Space Complexity:** $O(1)$ (or $O(26)$) since the frequency hash map will store at most 26 uppercase English characters.
+
+## How to Run the Tests
+This directory contains a complete test suite using Python's built-in `unittest` framework.
+
+1. Ensure you have Python installed on your system.
+2. Open your terminal and navigate to the directory containing these files.
+3. Run the test file:
+`pytest .\test_solution.py -v`
