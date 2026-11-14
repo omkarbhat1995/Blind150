@@ -20,7 +20,10 @@ The repository mirrors the official NeetCode roadmap, categorized by algorithmic
 ├── 04-Stack/
 ├── 05-Binary-Search/
 ├── 06-Linked-List/
-└── 07-Trees/
+├── 07-Trees/
+├── 08-Heap-Priority-Queue/
+├── 17-Math-and-Geometry/
+└── 18-Bit-Manipulation/
 ```
 ## 🛠️ Engineering Standards
 Every single problem folder in this repository is treated as an independent module complete with:
@@ -57,14 +60,16 @@ pytest -v
 ## 📈 Progress Tracker
 | Status | Category         | Problem                         | Language |
 |---------|------------------|---------------------------------|----------|
-| ✅      | Arrays & Hashing | Contains Duplicate              | Python   |
-| ✅      | Arrays & Hashing | Valid Anagram                   | Python   |
-| ✅      | Two Pointers     | Valid Palindrome                | Python   |
-| ✅      | Sliding Window   | Best Time to Buy and Sell Stock | Python   |
-| ✅      | Stack            | Valid Parentheses               | Python   | 
-| ✅      | Binary Search    | Binary Search                   | Python   | 
-| ✅      | Linked List      | Reverse Linked List             | Python   |
-| ✅      | Trees            | Invert Binary Tree              | Python   | 
-
-
+| ✅      | Arrays & Hashing   | Contains Duplicate              | Python   |
+| ✅      | Arrays & Hashing   | Valid Anagram                   | Python   |
+| ✅      | Two Pointers       | Valid Palindrome                | Python   |
+| ✅      | Sliding Window     | Best Time to Buy and Sell Stock | Python   |
+| ✅      | Stack              | Valid Parentheses               | Python   | 
+| ✅      | Binary Search      | Binary Search                   | Python   | 
+| ✅      | Linked List        | Reverse Linked List             | Python   |
+| ✅      | Trees              | Invert Binary Tree              | Python   | 
+| ✅      | Heap Priority Queue| Invert Binary Tree              | Python   | 
+| ✅      | Math-and-Geometry  | Invert Binary Tree              | Python   | 
+| ✅      | Bit-Manipulation   | Invert Binary Tree              | Python   | 
+z
 (...and continually expanding through the complete NeetCode roadmap!)
