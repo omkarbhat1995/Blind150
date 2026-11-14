@@ -105,8 +105,8 @@ pytest -v
 | ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | Python | $O(n)$ | $O(m)$ |
 | ✅ | [Longest Repeating Character Replacement](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) |  Python | $O(n)$ | $O(1)$ |
 | ✅ | [Permutation in String](./03-Sliding-Window//04-Permutation-in-String/) | Python | $O(l_1 + l_2)$ | $O(1)$ |
-| ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | Python | | |
-| ✅ | [Sliding Window Maximum](./03-Sliding-Window//06-Sliding-Window-Maximum/) | Python | | |
+| ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | Python | $O(|s| + |t|)$ | $O(1)$ |
+| ✅ | [Sliding Window Maximum](./03-Sliding-Window//06-Sliding-Window-Maximum/) | Python | $O(n)$ | $O(k)$ |
 </details>
 
 <details>
@@ -116,11 +116,11 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Valid Parentheses](./04-Stack/01-Valid-Parentheses) | Python | $O(n)$ | $O(n)$ |
-| ✅ | [Min Stack](./04-Stack/02-Min-Stack/) | Python | | |
-| ✅ | [Evaluate Reverse Polish Notation](./04-Stack/03-Evaluate-Reverse-Polish-Notation/) | Python | | |
-| ✅ | [Daily Temperatures](./04-Stack/04-Daily-Temperatures/) | Python | | |
-| ✅ | [Car Fleet](./04-Stack/05-Car-Fleet/) | Python | | |
-| ✅ | [Largest Rectangle In Histogram](./04-Stack/06-Largest-Rectangle-In-Histogram/) | Python | | |
+| ✅ | [Min Stack](./04-Stack/02-Min-Stack/) | Python | $O(1)$ | $O(n)$ |
+| ✅ | [Evaluate Reverse Polish Notation](./04-Stack/03-Evaluate-Reverse-Polish-Notation/) | Python | $O(n)$ | $O(n)$ |
+| ✅ | [Daily Temperatures](./04-Stack/04-Daily-Temperatures/) | Python | $O(n)$ | $O(n)$ |
+| ✅ | [Car Fleet](./04-Stack/05-Car-Fleet/) | Python | $O(n \log(n))$ | $O(n)$ |
+| ✅ | [Largest Rectangle In Histogram](./04-Stack/06-Largest-Rectangle-In-Histogram/) | Python | $O(n)$ | $O(n)$ |
 </details>
 
 <details>
@@ -130,12 +130,12 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Binary Search](./05-Binary-Search/01-Binary-Search) | Python | $O(\log n)$ | $O(1)$ |
-| ✅ | [Search a 2D Matrix](./05-Binary-Search/02-Search-a-2D-Matrix/) | Python | | |
-| ✅ | [Koko Eating Bananas](./05-Binary-Search/03-Koko-Eating-Bananas/) | Python | | |
-| ✅ | [Find Minimum in Rotated Sorted Array](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | Python | | |
-| ✅ | [Search in Rotated Sorted Array](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | Python | | |
-| ✅ | [Time Based Key Value Store](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | Python | | |
-| ✅ | [Median of Two Sorted Arrays](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | Python | | |
+| ✅ | [Search a 2D Matrix](./05-Binary-Search/02-Search-a-2D-Matrix/) | Python | $O(\log(m*n))$ | $O(1)$ |
+| ✅ | [Koko Eating Bananas](./05-Binary-Search/03-Koko-Eating-Bananas/) | Python | $O(n\log(m))$ | $O(n)$ |
+| ✅ | [Find Minimum in Rotated Sorted Array](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | Python | $O(\log(n))$ | $O(1)$ |
+| ✅ | [Search in Rotated Sorted Array](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | Python | $O(\log(n))$ | $O(1)$ |
+| ✅ | [Time Based Key Value Store](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | Python | $O(1) and $O(\log(n))$ | $O(m)$ |
+| ✅ | [Median of Two Sorted Arrays](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | Python | $O(\log(\min(m,n)))$ | $O(1)$ |
 </details>
 
 <details>
