@@ -16,13 +16,13 @@ class Solution:
         # Step 1: Find the middle of the linked list
         slow, fast = head, head.next
         while fast and fast.next:
-            slow = slow.next # pyright: ignore[reportOptionalMemberAccess]
+            slow = slow.next 
             fast = fast.next.next
             
         # Step 2: Reverse the second half of the list
-        second = slow.next # pyright: ignore[reportOptionalMemberAccess]
+        second = slow.next 
         prev = None
-        slow.next = None  # Split the list into two halves # pyright: ignore[reportOptionalMemberAccess]
+        slow.next = None  # Split the list into two halves 
         
         while second:
             nxt = second.next
@@ -35,8 +35,8 @@ class Solution:
         second = prev  # 'prev' is the new head of the reversed second half
         
         while second:
-            tmp1, tmp2 = first.next, second.next # pyright: ignore[reportOptionalMemberAccess]
-            first.next = second # pyright: ignore[reportOptionalMemberAccess]
+            tmp1, tmp2 = first.next, second.next 
+            first.next = second 
             second.next = tmp1
             first = tmp1
             second = tmp2
