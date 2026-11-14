@@ -72,13 +72,13 @@ pytest -v
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Contains Duplicate](./01-Arrays-and-Hashing/01-Contains-Duplicate) | Python | $O(n)$ | $O(n)$ |
 | ✅ | [Valid Anagram](./01-Arrays-and-Hashing/02-Valid-Anagram) | Python | $O(n + m)$ | $O(1)$ |
-| ✅ | Two Sum | Python  | $O(n)$ | $O(n)$ |
-| ✅ | Group Anagrams | Python  | $O(m*n)$ | $O(m*n)$ |
-| ✅ | Top-K Frequent Elements | Python  | $O(n)$ | $O(n)$ |
-| ✅ | Encode Decode Strings | Python  | $O(n)$ | $O(n)$ |
-| ✅ | Product of Array Except Self | Python  |$O(n)$ | $O(1)$ |
-| ✅ | Valid Sudoku | Python  | $O(1)$ | $O(1)$ |
-| ✅ | Longest Consecutive Sequence | Python  | $O(n)$ | $O(n)$ |
+| ✅ | [Two Sum](./01-Arrays-and-Hashing/03-Two-Sum) | Python  | $O(n)$ | $O(n)$ |
+| ✅ | [Group Anagrams](./01-Arrays-and-Hashing/04-Group-Anagrams) | Python  | $O(m*n)$ | $O(m*n)$ |
+| ✅ | [Top-K Frequent Elements](./01-Arrays-and-Hashing/05-Top-K-Frequent-Elements) | Python  | $O(n)$ | $O(n)$ |
+| ✅ | [Encode Decode Strings](./01-Arrays-and-Hashing/06-Encode-Decode-Strings) | Python  | $O(n)$ | $O(n)$ |
+| ✅ | [Product of Array Except Self](./01-Arrays-and-Hashing/07-Product-of-Array-Except-Self) | Python  |$O(n)$ | $O(1)$ |
+| ✅ | [Valid Sudoku](./01-Arrays-and-Hashing/08-Valid-Sudoku) | Python  | $O(1)$ | $O(1)$ |
+| ✅ | [Longest Consecutive Sequence](./01-Arrays-and-Hashing/09-Longest-Consecutive-Sequence) | Python  | $O(n)$ | $O(n)$ |
 
 </details>
 
