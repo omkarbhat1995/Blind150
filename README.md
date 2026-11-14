@@ -89,10 +89,10 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Valid Palindrome](./02-Two-Pointers/01-Valid-Palindrome) | Python | $O(n)$ | $O(1)$ |
-| ✅ | [Two Sum II](./02-Two-Pointers/02-Two-Sum-II-Input-Array-Is-Sorted) | | | |
-| ✅ | [3Sum](./02-Two-Pointers/03-3Sum) | | | |
-| ✅ | [Container-with-Most-Water](./02-Two-Pointers/04-Container-with-Most-Water) | | | |
-| ✅ | [Trapping-Rain-Water](./02-Two-Pointers/05-Trapping-Rain-Water) | | | |
+| ✅ | [Two Sum II](./02-Two-Pointers/02-Two-Sum-II-Input-Array-Is-Sorted) | Python  | | |
+| ✅ | [3Sum](./02-Two-Pointers/03-3Sum) | Python  | | |
+| ✅ | [Container-with-Most-Water](./02-Two-Pointers/04-Container-with-Most-Water) | Python  | | |
+| ✅ | [Trapping-Rain-Water](./02-Two-Pointers/05-Trapping-Rain-Water) | Python  | | |
 </details>
 
 <details>
@@ -102,11 +102,11 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Best Time to Buy and Sell Stock](./03-Sliding-Window/01-Best-Time-to-Buy-and-Sell-Stock) | Python | $O(n)$ | $O(1)$ |
-| ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | | | |
-| ✅ | [Longest Repeating Character Replacement](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) | | | |
-| ✅ | [Permutation in String](./03-Sliding-Window//04-Permutation-in-String/) | | | |
-| ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | | | |
-| ✅ | [Sliding Window Maximum](./03-Sliding-Window//06-Sliding-Window-Maximum/) | | | |
+| ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | Python | | |
+| ✅ | [Longest Repeating Character Replacement](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) |  Python | | |
+| ✅ | [Permutation in String](./03-Sliding-Window//04-Permutation-in-String/) | Python | | |
+| ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | Python | | |
+| ✅ | [Sliding Window Maximum](./03-Sliding-Window//06-Sliding-Window-Maximum/) | Python | | |
 </details>
 
 <details>
@@ -116,11 +116,11 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Valid Parentheses](./04-Stack/01-Valid-Parentheses) | Python | $O(n)$ | $O(n)$ |
-| ✅ | [Min Stack](./04-Stack/02-Min-Stack/) | | | |
-| ✅ | [Evaluate Reverse Polish Notation](./04-Stack/03-Evaluate-Reverse-Polish-Notation/) | | | |
-| ✅ | [Daily Temperatures](./04-Stack/04-Daily-Temperatures/) | | | |
-| ✅ | [Car Fleet](./04-Stack/05-Car-Fleet/) | | | |
-| ✅ | [Largest Rectangle In Histogram](./04-Stack/06-Largest-Rectangle-In-Histogram/) | | | |
+| ✅ | [Min Stack](./04-Stack/02-Min-Stack/) | Python | | |
+| ✅ | [Evaluate Reverse Polish Notation](./04-Stack/03-Evaluate-Reverse-Polish-Notation/) | Python | | |
+| ✅ | [Daily Temperatures](./04-Stack/04-Daily-Temperatures/) | Python | | |
+| ✅ | [Car Fleet](./04-Stack/05-Car-Fleet/) | Python | | |
+| ✅ | [Largest Rectangle In Histogram](./04-Stack/06-Largest-Rectangle-In-Histogram/) | Python | | |
 </details>
 
 <details>
@@ -130,12 +130,12 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Binary Search](./05-Binary-Search/01-Binary-Search) | Python | $O(\log n)$ | $O(1)$ |
-| ✅ | [Search a 2D Matrix](./05-Binary-Search/02-Search-a-2D-Matrix/) | | | |
-| ✅ | [Koko Eating Bananas](./05-Binary-Search/03-Koko-Eating-Bananas/) | | | |
-| ✅ | [Find Minimum in Rotated Sorted Array](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | | | |
-| ✅ | [Search in Rotated Sorted Array](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | | | |
-| ✅ | [Time Based Key Value Store](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | | | |
-| ✅ | [Median of Two Sorted Arrays](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | | | |
+| ✅ | [Search a 2D Matrix](./05-Binary-Search/02-Search-a-2D-Matrix/) | Python | | |
+| ✅ | [Koko Eating Bananas](./05-Binary-Search/03-Koko-Eating-Bananas/) | Python | | |
+| ✅ | [Find Minimum in Rotated Sorted Array](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | Python | | |
+| ✅ | [Search in Rotated Sorted Array](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | Python | | |
+| ✅ | [Time Based Key Value Store](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | Python | | |
+| ✅ | [Median of Two Sorted Arrays](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | Python | | |
 </details>
 
 <details>
@@ -145,16 +145,16 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Reverse Linked List](./06-Linked-List/01-Reverse-Linked-List) | Python | $O(n)$ | $O(1)$ |
-| ✅ | [Merge Two Sorted Lists](./06-Linked-List/02-Merge-Two-Sorted-Linked-Lists/) | | | |
-| ✅ | [](./06-Linked-List/03-Linked-List-Cycle-Detection) | | | |
-| ✅ | [](./06-Linked-List/04-Reorder-Linked-List/) | | | |
-| ✅ | [](./06-Linked-List/05-Remove-Nth-Node-From-End-of-List/) | | | |
-| ✅ | [](./06-Linked-List/06-Copy-Linked-List-with-Random-Pointer/) | | | |
-| ✅ | [](./06-Linked-List/07-Add-Two-Numbers/) | | | |
-| ✅ | [](./06-Linked-List/08-Find-the-Duplicate-Number/) | | | |
-| ✅ | [](./06-Linked-List/09-LRU-Cache/) | | | |
-| ✅ | [](./06-Linked-List/10-Merge-K-Sorted-Linked-Lists/) | | | |
-| ✅ | [](./06-Linked-List/11-Reverse-Nodes-in-K-Group/) | | | |
+| ✅ | [Merge Two Sorted Lists](./06-Linked-List/02-Merge-Two-Sorted-Linked-Lists/) | Python | | |
+| ✅ | [Linked List Cycle Detection](./06-Linked-List/03-Linked-List-Cycle-Detection) | Python | | |
+| ✅ | [Reorder Linked List](./06-Linked-List/04-Reorder-Linked-List/) | Python | | |
+| ✅ | [Remove Nth Node From End of List](./06-Linked-List/05-Remove-Nth-Node-From-End-of-List/) | Python | | |
+| ✅ | [Copy Linked List with Random Pointer](./06-Linked-List/06-Copy-Linked-List-with-Random-Pointer/) | Python | | |
+| ✅ | [Add Two Numbers](./06-Linked-List/07-Add-Two-Numbers/) | Python | | |
+| ✅ | [Find the Duplicate Number](./06-Linked-List/08-Find-the-Duplicate-Number/) | Python | | |
+| ✅ | [LRU Cache](./06-Linked-List/09-LRU-Cache/) | Python | | |
+| ✅ | [Merge K-Sorted Linked Lists](./06-Linked-List/10-Merge-K-Sorted-Linked-Lists/) | Python | | |
+| ✅ | [Reverse Nodes in K-Group](./06-Linked-List/11-Reverse-Nodes-in-K-Group/) | Python | | |
 </details>
 
 <details>
@@ -164,20 +164,20 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Invert Binary Tree](./07-Trees/01-Invert-Binary-Tree) | Python | $O(n)$ | $O(n)$ |
-| ✅ | [Maximum Depth of Binary Tree](./07-Trees/02-Maximum-Depth-of-Binary-Tree/) | | | |
-| ✅ | [](./07-Trees/03-Diameter-of-Binary-Tree/) | | | |
-| ✅ | [](./07-Trees/04-Balanced-Binary-Tree/) | | | |
-| ✅ | [](./07-Trees/05-Same-Tree/) | | | |
-| ✅ | [](./07-Trees/06-Subtree-of-Another-Tree/) | | | |
-| ✅ | [](./07-Trees/07-Lowest-Common-Ancestor-of-a-Binary-Search-Tree/) | | | |
-| ✅ | [](./07-Trees/08-Binary-Tree-Level-Order-Traversal/) | | | |
-| ✅ | [](./07-Trees/09-Binary-Tree-Right-Side-View/) | | | |
-| ✅ | [](./07-Trees/10-Count-Good-Nodes-In-Binary-Tree/) | | | |
-| ✅ | [](./07-Trees/11-Validate-Binary-Search-Tree/) | | | |
-| ✅ | [](./07-Trees/12-Kth-Smallest-Element-In-a-Bst/) | | | |
-| ✅ | [](./07-Trees/13-Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal/) | | | |
-| ✅ | [](./07-Trees/14-Binary-Tree-Maximum-Path-Sum/) | | | |
-| ✅ | [](./07-Trees/15-Serialize-And-Deserialize-Binary-Tree/) | | | |
+| ✅ | [Maximum Depth of Binary Tree](./07-Trees/02-Maximum-Depth-of-Binary-Tree/) | Python | | |
+| ✅ | [Diameter-of-Binary-Tree](./07-Trees/03-Diameter-of-Binary-Tree/) | Python | | |
+| ✅ | [Balanced-Binary-Tree](./07-Trees/04-Balanced-Binary-Tree/) | Python | | |
+| ✅ | [Same-Tree](./07-Trees/05-Same-Tree/) | Python | | |
+| ✅ | [Subtree-of-Another-Tree](./07-Trees/06-Subtree-of-Another-Tree/) | Python | | |
+| ✅ | [Lowest-Common-Ancestor-of-a-Binary-Search-Tree](./07-Trees/07-Lowest-Common-Ancestor-of-a-Binary-Search-Tree/) | Python | | |
+| ✅ | [Binary-Tree-Level-Order-Traversal](./07-Trees/08-Binary-Tree-Level-Order-Traversal/) | Python | | |
+| ✅ | [Binary-Tree-Right-Side-View](./07-Trees/09-Binary-Tree-Right-Side-View/) | Python | | |
+| ✅ | [Count-Good-Nodes-In-Binary-Tree](./07-Trees/10-Count-Good-Nodes-In-Binary-Tree/) | Python | | |
+| ✅ | [Validate-Binary-Search-Tree](./07-Trees/11-Validate-Binary-Search-Tree/) | Python | | |
+| ✅ | [Kth-Smallest-Element-In-a-Bst](./07-Trees/12-Kth-Smallest-Element-In-a-Bst/) | Python | | |
+| ✅ | [Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal](./07-Trees/13-Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal/) | Python | | |
+| ✅ | [Binary-Tree-Maximum-Path-Sum](./07-Trees/14-Binary-Tree-Maximum-Path-Sum/) | Python | | |
+| ✅ | [Serialize-And-Deserialize-Binary-Tree](./07-Trees/15-Serialize-And-Deserialize-Binary-Tree/) | Python | | |
 </details>
 
 <details>
@@ -186,14 +186,122 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ✅ | [](./08-Heap-Priority-Queue/01-Kth-Largest-Element_in_a_Stream/) | | | |
-| ✅ | [](./08-Heap-Priority-Queue/02-Last-Stone-Weight/) | | | |
-| ✅ | [](/08-Heap-Priority-Queue/03-K-Closest-Points-to-Origin/) | | | |
-| ✅ | [](/08-Heap-Priority-Queue/04-Kth-Largest-Element-In-An-Array/) | | | |
-| ✅ | [](/08-Heap-Priority-Queue/05-Task-Scheduler/) | | | |
-| ✅ | [](/08-Heap-Priority-Queue/06-Design-Twitter/) | | | |
-| ✅ | [](/08-Heap-Priority-Queue/07-Find-Median-From-Data-Stream/) | | | |
+| ✅ | [Kth-Largest Element in a Stream](./08-Heap-Priority-Queue/01-Kth-Largest-Element_in_a_Stream/) | Python | | |
+| ✅ | [Last Stone Weight](./08-Heap-Priority-Queue/02-Last-Stone-Weight/) | Python | | |
+| ✅ | [K-Closest Points to Origin](/08-Heap-Priority-Queue/03-K-Closest-Points-to-Origin/) | Python | | |
+| ✅ | [Kth-Largest Element In An Array](/08-Heap-Priority-Queue/04-Kth-Largest-Element-In-An-Array/) | Python | | |
+| ✅ | [Task Scheduler](/08-Heap-Priority-Queue/05-Task-Scheduler/) | Python | | |
+| ✅ | [Design Twitter](/08-Heap-Priority-Queue/06-Design-Twitter/) | Python | | |
+| ✅ | [Find Median From Data Stream](/08-Heap-Priority-Queue/07-Find-Median-From-Data-Stream/) | Python | | |
 
+</details>
+
+<details>
+<summary><b>9. Backtracking [0 / 10]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [](/09-Backtracking/01-Subsets/) | Python | | |
+
+
+</details>
+
+
+<details>
+<summary><b>10. Tries [3 / 3]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [](/10-Tries/01-Implement-Trie-Prefix-Tree/) | Python | | |
+
+</details>
+
+
+
+<details>
+<summary><b>11. Graphs [0 / 13]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [](/11-Graphs/01-Number-of-Islands/) | Python | | |
+
+</details>
+
+<details>
+<summary><b>12. Advanced Graphs [0 / 6]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [](/12-Adv-Graphs/01-Network-Delay-Time/) | Python | | |
+
+
+</details>
+
+
+<details>
+<summary><b>13. 1-D Dynamic Programming [0 / 12]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [](/13-1-D-Dynamic-Programming/01-Climbing-Stairs/) | Python | | |
+
+</details>
+
+
+
+<details>
+<summary><b>14. 2-D Dynamic Programming [0 / 11]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [Unique Paths](/14-2-D-Dynamic-Programming/01-Unique-Paths/) | Python | | |
+| ⬜️ | [Longest Common Subsequence](/14-2-D-Dynamic-Programming/02-Longest-Common-Subsequence/) | Python | | |
+| ⬜️ | [Best Time to Buy And Sell Stock With Cooldown](/14-2-D-Dynamic-Programming/03-Best-Time-to-Buy-And-Sell-Stock-With-Cooldown/) | Python | | |
+| ⬜️ | [Coin Change II](/14-2-D-Dynamic-Programming/04-Coin-Change-II/) | Python | | |
+| ⬜️ | [Target Sum](/14-2-D-Dynamic-Programming/05-Target-Sum/) | Python | | |
+| ⬜️ | [Interleaving String](/14-2-D-Dynamic-Programming/06-Interleaving-String/) | Python | | |
+| ⬜️ | [Longest Increasing Path In a Matrix](/14-2-D-Dynamic-Programming/07-Longest-Increasing-Path-In-a-Matrix/) | Python | | |
+| ⬜️ | [Distinct Subsequences](/14-2-D-Dynamic-Programming/08-Distinct-Subsequences/) | Python | | |
+| ⬜️ | [Edit Distance](/14-2-D-Dynamic-Programming/09-Edit-Distance/) | Python | | |
+| ⬜️ | [Burst Balloons](/14-2-D-Dynamic-Programming/10-Burst-Balloons/) | Python | | |
+| ⬜️ | [Regular Expression Matching](/14-2-D-Dynamic-Programming/11-Regular-Expression-Matching/) | Python | | |
+</details>
+
+<details>
+<summary><b>15. Greedy [0 / 8]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [Maximum Subarray](/15-Greedy/01-Maximum-Subarray/) | Python | | |
+| ⬜️ | [Jump Game/](/15-Greedy/02-Jump-Game/) | Python | | |
+| ⬜️ | [Jump Game II/](/15-Greedy/03-Jump-Game-II/) | Python | | |
+| ⬜️ | [Gas Station](/15-Greedy/04-Gas-Station/) | Python | | |
+| ⬜️ | [Hand of Straights](/15-Greedy/05-Hand-of-Straights/) | Python | | |
+| ⬜️ | [Merge Triplets to Form Target Triplet](/15-Greedy/06-Merge-Triplets-to-Form-Target-Triplet/) | Python | | |
+| ⬜️ | [Partition Labels](/15-Greedy/07-Partition-Labels/) | Python | | |
+| ⬜️ | [Valid Parenthesis String](/15-Greedy/08-Valid-Parenthesis-String/) | Python | | |
+</details>
+
+
+<details>
+<summary><b>16. Intervals [0 / 6]</b></summary>
+<br>
+
+| Status | Problem | Language | Time | Space |
+| :---: | :--- | :---: | :---: | :---: |
+| ⬜️ | [Insert Interval](/16-Intervals/01-Insert-Interval/) | Python | | |
+| ⬜️ | [Merge Intervals](/16-Intervals/02-Merge-Intervals/) | Python | | |
+| ⬜️ | [Non-Overlapping Intervals](/16-Intervals/03-Non-Overlapping-Intervals/) | Python | | |
+| ⬜️ | [Meeting Rooms ](/16-Intervals/04-Meeting-Rooms/) | Python | | |
+| ⬜️ | [Meeting Rooms II](/16-Intervals/05-Meeting-Rooms-II/) | Python | | |
+| ⬜️ | [Minimum Interval to Include Each Query](/16-Intervals/06-Minimum-Interval-to-Include-Each-Query/) | Python | | |
 </details>
 
 
@@ -203,13 +311,14 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
+| ✅ | [Rotate Image](./17-Math-and-Geometry/01-Rotate-Image/) | Python | | |
+| ✅ | [Spiral Matrix](./17-Math-and-Geometry/02-Spiral-Matrix/) | Python | | |
+| ✅ | [Set Matrix Zeroes](./17-Math-and-Geometry/03-Set-Matrix-Zeroes/) | Python | | |
+| ✅ | [Happy Number](./17-Math-and-Geometry/04-Happy-Number/) | Python | | |
+| ✅ | [PLus One](./17-Math-and-Geometry/05-PLus-One/) | Python | | |
+| ✅ | [Pow](./17-Math-and-Geometry/06-Pow/) | Python | | |
+| ✅ | [Multiply Strings](./17-Math-and-Geometry/07-Multiply-Strings/) | Python | | |
+| ✅ | [Detect Squares](./17-Math-and-Geometry/08-Detect-Squares/) | Python | | |
 </details>
 
 
@@ -220,13 +329,13 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
-| ✅ | []() | | | |
+| ✅ | [Single Number](./18-Bit-Manipulation/01-Single-Number/) | Python | | |
+| ✅ | [Number of 1-Bits](./18-Bit-Manipulation/02-Number-of-1-Bits/) | Python | | |
+| ✅ | [Counting Bits](./18-Bit-Manipulation/03-Counting-Bits/) | Python | | |
+| ✅ | [Reverse Bits](./18-Bit-Manipulation/04-Reverse-Bits/) | Python | | |
+| ✅ | [Missing Number](./18-Bit-Manipulation/05-Missing-Number/) | Python | | |
+| ✅ | [Sum of Two Integers](./18-Bit-Manipulation/06-Sum-of-Two-Integers/) | Python | | |
+| ✅ | [Reverse Integer](./18-Bit-Manipulation/07-Reverse-Integer/) | Python | | |
 </details>
 
 
