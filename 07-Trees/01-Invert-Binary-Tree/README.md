@@ -6,7 +6,7 @@
 ## Problem Description
 
 You are given the `root` of a binary tree. Invert the binary tree and return its `root`.
-
+---
 ## Approach: Recursive Depth-First Search (DFS)
 
 The most elegant way to solve this problem is using recursion. An inverted binary tree means that for every node, its left and right children are swapped.
@@ -15,7 +15,15 @@ The most elegant way to solve this problem is using recursion. An inverted binar
 2. **Recursive Step:** We recursively call our invert function on the left child and the right child.
 3. **Swap:** Once the recursive calls return the inverted subtrees, we swap the current node's `left` and `right` pointers.
 4. **Return:** Finally, we return the current `root`.
-
+---
 ## Complexity
 - **Time Complexity:** $O(n)$ where `n` is the number of nodes in the tree. We visit every single node exactly once.
 - **Space Complexity:** $O(h)$ where `h` is the height of the tree. This accounts for the recursive call stack. In the worst-case scenario (a completely skewed tree), this degrades to $O(n)$. In the best-case (a completely balanced tree), it is $O(\log n)$.
+---
+
+## 🧪 Running the Tests
+
+To run the tests for this specific problem, execute the following command in your terminal from the root directory:
+```bash
+`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+```

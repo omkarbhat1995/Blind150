@@ -3,7 +3,7 @@
 ## Problem Statement
 
 Given the `head` of a linked list and an integer `n`, remove the `nth` node from the end of the list and return its head.
-
+---
 **Example 1:**
 - **Input:** `head = [1,2,3,4]`, `n = 2`
 - **Output:** `[1,2,4]`
@@ -15,13 +15,13 @@ Given the `head` of a linked list and an integer `n`, remove the `nth` node from
 **Example 3:**
 - **Input:** `head = [1,2]`, `n = 2`
 - **Output:** `[2]`
-
+---
 **Constraints:**
 - The number of nodes in the list is `sz`.
 - 1 <= sz <= 30
 - 0 <= Node.val <= 100
 - 1 <= n <= sz
-
+---
 ## Approach
 
 The most optimal way to solve this in a single pass is by using a **Two-Pointer** approach alongside a **Dummy Node**.
@@ -33,11 +33,11 @@ The most optimal way to solve this in a single pass is by using a **Two-Pointer*
 5. Because of the gap we created, the `left` pointer will now be sitting immediately *before* the node we want to remove.
 6. Skip the target node by updating the pointer: `left.next = left.next.next`.
 7. Return `dummy.next` as the true head of the modified list.
-
+---
 ## Complexity
 - **Time Complexity:** O(sz), where sz is the number of nodes in the linked list. We traverse the list exactly once.
 - **Space Complexity:** O(1). We strictly manipulate existing pointers without allocating any scaling memory.
-
+---
 ## Testing
 To run the custom test suite:
 ```bash

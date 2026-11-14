@@ -9,14 +9,14 @@ The array nums = [1,2,3,4,5,6] might become:
 Notice that rotating the array 4 times moves the last four elements of the array to the beginning. Rotating the array 6 times produces the original array.
 
 Assuming all elements in the rotated sorted array `nums` are unique, return the minimum element of this array.
-
+---
 **Constraint:** A solution that runs in $O(n)$ time is trivial. You must write an algorithm that runs in $O(\log n)$ time.
 
 **Constraints:**
 - `1 <= nums.length <= 1000`
 - `-1000 <= nums[i] <= 1000`
 - All elements in `nums` are unique.
-
+---
 ## Approach: Modified Binary Search
 To achieve $O(\log n)$ time complexity, we must use Binary Search. The tricky part is that the array is rotated, meaning it is split into two separate sorted portions. 
 
@@ -27,11 +27,11 @@ To achieve $O(\log n)$ time complexity, we must use Binary Search. The tricky pa
 5. Now we must decide which half to search:
    - If `nums[mid] >= nums[left]`, it means the `mid` element belongs to the left sorted portion. The true minimum must be strictly in the right sorted portion, so we move our pointer: `left = mid + 1`.
    - If `nums[mid] < nums[left]`, it means the `mid` element belongs to the right sorted portion. The true minimum could either be the `mid` element itself (which we've already recorded) or somewhere to its left, so we move our pointer: `right = mid - 1`.
-
+---
 ## Complexity
 - **Time Complexity:** $O(\log n)$ - We eliminate half of the remaining array elements at every step of our binary search.
 - **Space Complexity:** $O(1)$ - We are only using a few pointers to perform the search, requiring no extra memory.
-
+---
 ## How to Run the Tests
 This directory contains a complete test suite using Python's built-in `unittest` framework.
 

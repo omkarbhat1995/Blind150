@@ -8,7 +8,7 @@ The digits are stored in **reverse order**, e.g. the number 321 is represented a
 Each of the nodes contains a single digit. You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
 Return the sum of the two numbers as a linked list.
-
+---
 **Example 1:**
 - **Input:** `l1 = [1,2,3]`, `l2 = [4,5,6]`
 - **Output:** `[5,7,9]`
@@ -17,11 +17,11 @@ Return the sum of the two numbers as a linked list.
 **Example 2:**
 - **Input:** `l1 = [9]`, `l2 = [9]`
 - **Output:** `[8,1]`
-
+---
 **Constraints:**
 - 1 <= l1.length, l2.length <= 100.
 - 0 <= Node.val <= 9
-
+---
 ## Approach
 
 This problem is optimally solved using a **Single Pass** approach with a **Dummy Node** and a **Carry** tracker.
@@ -34,11 +34,11 @@ This problem is optimally solved using a **Single Pass** approach with a **Dummy
 6. Update the `carry` for the next iteration (sum integer division by 10) and append the new digit (sum modulo 10) to our `curr` node.
 7. Step our `curr`, `l1`, and `l2` pointers forward.
 8. Return `dummy.next` as the true head of the new list.
-
+---
 ## Complexity
 - **Time Complexity:** O(max(m, n)), where m and n are the lengths of `l1` and `l2`. We iterate at most the length of the longer list (plus one potential iteration for a final carry).
 - **Space Complexity:** O(max(m, n)). The length of the new list is at most max(m, n) + 1.
-
+---
 ## Testing
 To run the custom test suite:
 ```bash
