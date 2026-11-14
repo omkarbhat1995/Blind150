@@ -6,7 +6,6 @@
 ## 📝 Problem Statement
 
 Given an array of integers `nums` and an integer `target`, return the indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.
-
 You may assume that every input has exactly one pair of indices `i` and `j` that satisfy the condition. Return the answer with the smaller index first.
 ---
 ### Examples
@@ -23,7 +22,7 @@ You may assume that every input has exactly one pair of indices `i` and `j` that
 **Example 3:**
 > **Input:** `nums = [5, 5], target = 10`  
 > **Output:** `[0, 1]`
-
+---
 ### Constraints
 * `2 <= nums.length <= 1000`
 * `-10,000,000 <= nums[i] <= 10,000,000`
@@ -41,7 +40,7 @@ We can use a **Hash Map** to store the numbers we have seen so far and their cor
 We check if this complement already exists in our Hash Map:
 1. If it does, we have found our pair! We return the index of the complement and our current index.
 2. If it does not, we add the current number and its index to the Hash Map and continue.
-
+---
 ### ⏱️ Complexity
 * **Time Complexity:** `O(n)` — We traverse the list containing `n` elements exactly once. Each lookup and insertion in the Hash Map takes `O(1)` time on average.
 * **Space Complexity:** `O(n)` — In the worst-case scenario, we might need to store `n - 1` elements in our Hash Map before finding the matching pair.

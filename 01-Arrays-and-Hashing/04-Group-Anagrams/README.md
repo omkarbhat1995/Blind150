@@ -37,7 +37,7 @@ A naive approach would be to sort every single string and group them by their so
 We can optimize this by building upon the logic from the "Valid Anagram" problem. Instead of sorting, we can count the frequency of each character (from 'a' to 'z') and use that count as our grouping key. 
 
 Since Python lists are mutable and cannot be used as dictionary keys, we convert the frequency array of size 26 into a `tuple`. We map each tuple to a list of strings that share that exact character frequency.
-
+---
 ### ⏱️ Complexity
 * **Time Complexity:** `O(m * n)` — Where `m` is the total number of strings and `n` is the average length of a string. We iterate through every string, and for each string, we iterate through its characters to count them.
 * **Space Complexity:** `O(m * n)` — In the worst-case scenario (no anagrams exist), our Hash Map will store every single string and its corresponding tuple key.

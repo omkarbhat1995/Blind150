@@ -10,7 +10,7 @@ You are given an integer array `prices` where `prices[i]` is the price of NeetCo
 You may choose a single day to buy one NeetCoin and choose a different day in the future to sell it.
 
 Return the maximum profit you can achieve. You may choose to not make any transactions, in which case the profit would be `0`.
-
+---
 ### Examples
 
 **Example 1:**
@@ -22,19 +22,19 @@ Return the maximum profit you can achieve. You may choose to not make any transa
 - **Input:** `prices = [10, 8, 7, 5, 2]`
 - **Output:** `0`
 - **Explanation:** No profitable transactions can be made, thus the max profit is 0.
-
+---
 ### Constraints
 - `1 <= prices.length <= 100`
 - `0 <= prices[i] <= 100`
-
+---
 ## Optimal Approach
 
 The optimal way to solve this is using a single-pass sliding window approach. We track the minimum price seen so far (our buying day) and the maximum profit we can achieve by selling on the current day. 
-
+---
 ### Complexity
 - **Time Complexity:** $O(n)$ where $n$ is the length of the `prices` array. We only iterate through the array once.
 - **Space Complexity:** $O(1)$ since we only use a few variables to track the minimum price and maximum profit.
-
+---
 ## How to Run the Tests
 This directory contains a complete test suite using Python's built-in `unittest` framework.
 

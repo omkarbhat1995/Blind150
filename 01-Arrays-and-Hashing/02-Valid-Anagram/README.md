@@ -18,7 +18,7 @@ An anagram is a string that contains the exact same characters as another string
 **Example 2:**
 > **Input:** `s = "jar", t = "jam"`  
 > **Output:** `false`
-
+---
 ### Constraints
 * `1 <= s.length, t.length <= 5 * 10^4`
 * `s` and `t` consist of lowercase English letters.
@@ -30,7 +30,7 @@ An anagram is a string that contains the exact same characters as another string
 A naive approach might involve sorting both strings and comparing them, but that would take `O(n log n)` time. We can achieve a linear time solution by counting the frequencies of each character.
 
 Since the problem constraints guarantee that our strings only contain lowercase English letters, we don't need a dynamic Hash Map. We can use a fixed-size array of 26 integers. We iterate through the strings, incrementing the count for a character found in `s` and decrementing the count for a character found in `t`. If the strings are anagrams, all values in our frequency array will perfectly cancel out to `0` at the end.
-
+---
 ### ⏱️ Complexity
 * **Time Complexity:** `O(n + m)` — We iterate through both strings completely (where `n` and `m` are the lengths of `s` and `t`).
 * **Space Complexity:** `O(1)` — We use an array of size 26 regardless of how large the input strings grow. Because the auxiliary space does not scale with the input size, it is strictly constant.
