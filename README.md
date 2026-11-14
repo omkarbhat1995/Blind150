@@ -83,70 +83,101 @@ pytest -v
 </details>
 
 <details>
-<summary><b>2. Two Pointers [1 / 5]</b></summary>
+<summary><b>2. Two Pointers [5 / 5]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Valid Palindrome](./02-Two-Pointers/01-Valid-Palindrome) | Python | $O(n)$ | $O(1)$ |
-| ⬜️ | Two Sum II | | | |
-| ⬜️ | 3Sum | | | |
-
+| ✅ | [Two Sum II](./02-Two-Pointers/02-Two-Sum-II-Input-Array-Is-Sorted) | | | |
+| ✅ | [3Sum](./02-Two-Pointers/03-3Sum) | | | |
+| ✅ | [Container-with-Most-Water](./02-Two-Pointers/04-Container-with-Most-Water) | | | |
+| ✅ | [Trapping-Rain-Water](./02-Two-Pointers/05-Trapping-Rain-Water) | | | |
 </details>
 
 <details>
-<summary><b>3. Sliding Window [1 / 6]</b></summary>
+<summary><b>3. Sliding Window [6 / 6]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Best Time to Buy and Sell Stock](./03-Sliding-Window/01-Best-Time-to-Buy-and-Sell-Stock) | Python | $O(n)$ | $O(1)$ |
-| ⬜️ | Longest Substring Without Repeating Characters | | | |
-
+| ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | | | |
+| ✅ | [](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) | | | |
+| ✅ | [](./03-Sliding-Window//04-Permutation-in-String/) | | | |
+| ✅ | [](./03-Sliding-Window//05-Minimum-Window-Substring/) | | | |
+| ✅ | [](./03-Sliding-Window//06-Sliding-Window-Maximum/) | | | |
 </details>
 
 <details>
-<summary><b>4. Stack [1 / 7]</b></summary>
+<summary><b>4. Stack [7 / 7]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Valid Parentheses](./04-Stack/01-Valid-Parentheses) | Python | $O(n)$ | $O(n)$ |
-| ⬜️ | Min Stack | | | |
-
+| ✅ | [Min Stack](./04-Stack/02-Min-Stack/) | | | |
+| ✅ | [](./04-Stack/03-Evaluate-Reverse-Polish-Notation/) | | | |
+| ✅ | [](./04-Stack/04-Daily-Temperatures/) | | | |
+| ✅ | [](./04-Stack/05-Car-Fleet/) | | | |
+| ✅ | [](./04-Stack/06-Largest-Rectangle-In-Histogram/) | | | |
 </details>
 
 <details>
-<summary><b>5. Binary Search [1 / 7]</b></summary>
+<summary><b>5. Binary Search [7 / 7]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Binary Search](./05-Binary-Search/01-Binary-Search) | Python | $O(\log n)$ | $O(1)$ |
-| ⬜️ | Search a 2D Matrix | | | |
-
+| ⬜️ | [Search a 2D Matrix](./05-Binary-Search/02-Search-a-2D-Matrix/) | | | |
+| ⬜️ | [](./05-Binary-Search/03-Koko-Eating-Bananas/) | | | |
+| ⬜️ | [](./05-Binary-Search/04-Find-Minimum-in-Rotated-Sorted-Array/) | | | |
+| ⬜️ | [](./05-Binary-Search/05-Search-in-Rotated-Sorted-Array/) | | | |
+| ⬜️ | [](./05-Binary-Search/06-Time-Based-Key-Value-Store/) | | | |
+| ⬜️ | [](./05-Binary-Search/07-Median-of-Two-Sorted-Arrays/) | | | |
 </details>
 
 <details>
-<summary><b>6. Linked List [1 / 11]</b></summary>
+<summary><b>6. Linked List [11 / 11]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Reverse Linked List](./06-Linked-List/01-Reverse-Linked-List) | Python | $O(n)$ | $O(1)$ |
-| ⬜️ | Merge Two Sorted Lists | | | |
-
+| ⬜️ | [Merge Two Sorted Lists](./06-Linked-List/02-Merge-Two-Sorted-Linked-Lists/) | | | |
+| ⬜️ | [](./06-Linked-List/03-Linked-List-Cycle-Detection) | | | |
+| ⬜️ | [](./06-Linked-List/04-Reorder-Linked-List/) | | | |
+| ⬜️ | [](./06-Linked-List/05-Remove-Nth-Node-From-End-of-List/) | | | |
+| ⬜️ | [](./06-Linked-List/06-Copy-Linked-List-with-Random-Pointer/) | | | |
+| ⬜️ | [](./06-Linked-List/07-Add-Two-Numbers/) | | | |
+| ⬜️ | [](./06-Linked-List/08-Find-the-Duplicate-Number/) | | | |
+| ⬜️ | [](./06-Linked-List/09-LRU-Cache/) | | | |
+| ⬜️ | [](./06-Linked-List/10-Merge-K-Sorted-Linked-Lists/) | | | |
+| ⬜️ | [](./06-Linked-List/11-Reverse-Nodes-in-K-Group/) | | | |
 </details>
 
 <details>
-<summary><b>7. Trees [1 / 15]</b></summary>
+<summary><b>7. Trees [15 / 15]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Invert Binary Tree](./07-Trees/01-Invert-Binary-Tree) | Python | $O(n)$ | $O(n)$ |
 | ⬜️ | Maximum Depth of Binary Tree | | | |
-
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
+| ⬜️ | []() | | | |
 </details>
 
 <!--
