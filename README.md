@@ -222,7 +222,7 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ⬜️ | [](/10-Tries/01-Implement-Trie-Prefix-Tree/) | Python | | |
-
+| ⬜️ | [](/10-Tries) | Python | | |
 </details>
 
 
@@ -234,7 +234,7 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ⬜️ | [](/11-Graphs/01-Number-of-Islands/) | Python | | |
-
+| ⬜️ | [](/11-Graphs) | Python | | |
 </details>
 
 <details>
@@ -244,7 +244,7 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ⬜️ | [](/12-Adv-Graphs/01-Network-Delay-Time/) | Python | | |
-
+| ⬜️ | [](/12-Adv-Graphs) | Python | | |
 
 </details>
 
@@ -256,6 +256,7 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ⬜️ | [](/13-1-D-Dynamic-Programming/01-Climbing-Stairs/) | Python | | |
+| ⬜️ | [](/13-1-D-Dynamic-Programming) | Python | | |
 
 </details>
 
