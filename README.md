@@ -89,10 +89,10 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Valid Palindrome](./02-Two-Pointers/01-Valid-Palindrome) | Python | $O(n)$ | $O(1)$ |
-| ✅ | [Two Sum II](./02-Two-Pointers/02-Two-Sum-II-Input-Array-Is-Sorted) | Python  | | |
-| ✅ | [3Sum](./02-Two-Pointers/03-3Sum) | Python  | | |
-| ✅ | [Container-with-Most-Water](./02-Two-Pointers/04-Container-with-Most-Water) | Python  | | |
-| ✅ | [Trapping-Rain-Water](./02-Two-Pointers/05-Trapping-Rain-Water) | Python  | | |
+| ✅ | [Two Sum II](./02-Two-Pointers/02-Two-Sum-II-Input-Array-Is-Sorted) | Python  | $O(n)$ | $O(1)$ |
+| ✅ | [3Sum](./02-Two-Pointers/03-3Sum) | Python  | $O(n^2)$ | $O(1)$ |
+| ✅ | [Container-with-Most-Water](./02-Two-Pointers/04-Container-with-Most-Water) | Python  | $O(n)$ | $O(1)$ |
+| ✅ | [Trapping-Rain-Water](./02-Two-Pointers/05-Trapping-Rain-Water) | Python  | $O(n)$ | $O(1)$ |
 </details>
 
 <details>
@@ -102,9 +102,9 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Best Time to Buy and Sell Stock](./03-Sliding-Window/01-Best-Time-to-Buy-and-Sell-Stock) | Python | $O(n)$ | $O(1)$ |
-| ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | Python | | |
-| ✅ | [Longest Repeating Character Replacement](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) |  Python | | |
-| ✅ | [Permutation in String](./03-Sliding-Window//04-Permutation-in-String/) | Python | | |
+| ✅ | [Longest Substring Without Repeating Characters](./03-Sliding-Window/02-Longest-Substring-Without-Repeating-Characters/) | Python | $O(n)$ | $O(m)$ |
+| ✅ | [Longest Repeating Character Replacement](./03-Sliding-Window//03-Longest-Repeating-Character-Replacement/) |  Python | $O(n)$ | $O(1)$ |
+| ✅ | [Permutation in String](./03-Sliding-Window//04-Permutation-in-String/) | Python | $O(l_1 + l_2)$ | $O(1)$ |
 | ✅ | [Minimum Window Substring](./03-Sliding-Window//05-Minimum-Window-Substring/) | Python | | |
 | ✅ | [Sliding Window Maximum](./03-Sliding-Window//06-Sliding-Window-Maximum/) | Python | | |
 </details>
