@@ -371,22 +371,3 @@ pytest -v
 | ✅ | [Reverse Integer](./18-Bit-Manipulation/07-Reverse-Integer/) | Python | $O(\log_{10}(x))$ | $O(1)$ |
 </details>
 
-
-<!--
-## 📈 Progress Tracker
-| Status | Category         | Problem                         | Language |
-|---------|------------------|---------------------------------|----------|
-| ✅      | Arrays & Hashing   | Contains Duplicate              | Python   |
-| ✅      |                    | Valid Anagram                   | Python   |
-| ✅      | Two Pointers       | Valid Palindrome                | Python   |
-| ✅      | Sliding Window     | Best Time to Buy and Sell Stock | Python   |
-| ✅      | Stack              | Valid Parentheses               | Python   | 
-| ✅      | Binary Search      | Binary Search                   | Python   | 
-| ✅      | Linked List        | Reverse Linked List             | Python   |
-| ✅      | Trees              | Invert Binary Tree              | Python   | 
-| ✅      | Heap Priority Queue| Invert Binary Tree              | Python   | 
-| ✅      | Math-and-Geometry  | Invert Binary Tree              | Python   | 
-| ✅      | Bit-Manipulation   | Invert Binary Tree              | Python   | 
-
-(...and continually expanding through the complete NeetCode roadmap!)
--->
