@@ -31,5 +31,5 @@ Where `i >> 1` divides `i` by 2, and `i & 1` checks if `i` is odd (returns `1` i
 
 To run the tests for this specific problem, execute the following command in your terminal from the root directory:
 ```bash
-`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+`pytest test_solution.py -v`
 ```

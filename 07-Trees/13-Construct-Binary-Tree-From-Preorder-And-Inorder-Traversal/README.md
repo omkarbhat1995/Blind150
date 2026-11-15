@@ -31,5 +31,5 @@ Given two integer arrays `preorder` and `inorder` where `preorder` is the preord
 
 To run the tests for this specific problem, execute the following command in your terminal from the root directory:
 ```bash
-`pytest 01-Arrays-and-Hashing/07-Product-of-Array-Except-Self/test_solution.py -v`
+`pytest test_solution.py -v`
 ```
