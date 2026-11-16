@@ -212,7 +212,7 @@ pytest -v
 | ⬜️ | [Palindrome Partitioning](/09-Backtracking/08-Palindrome-Partitioning/) | Python | | |
 | ⬜️ | [Letter Combination of a Phone Number](/09-Backtracking/09-Letter-Combination-of-a-Phone-Number/) | Python | | |
 | ⬜️ | [N-Queens](/09-Backtracking/10-N-Queens/) | Python | | |
-| ⬜️ | [](/09-Backtracking) | Python | | |
+
 </details>
 
 
