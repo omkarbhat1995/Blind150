@@ -206,6 +206,7 @@ pytest -v
 | ✅ | [Combination Sum](/09-Backtracking/02-Combination-Sum/) | Python | | |
 | ✅ | [Combination Sum II](/09-Backtracking/03-Combination-Sum-II/) | Python | | |
 | ✅ | [Permutations](/09-Backtracking/04-Permutations/) | Python | | |
+| ✅ | [Subsets II](/09-Backtracking/05-Subsets-II/) | Python | | |
 | ⬜️ | [Generate Parentheses](/09-Backtracking/06-Generate-Parentheses/) | Python | | |
 | ⬜️ | [Word Search](/09-Backtracking/07-Word-Search/) | Python | | |
 | ⬜️ | [Palindrome Partitioning](/09-Backtracking/08-Palindrome-Partitioning/) | Python | | |
