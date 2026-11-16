@@ -61,7 +61,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `90 / 150`
+**Overall Completion:** `91 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -222,9 +222,9 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ✅ | [Implement Trie Prefix Tree](/10-Tries/01-Implement-Trie-Prefix-Tree/) | Python | | |
-| ✅ | [Design Add And Search Words Data Structure](/10-Tries/02-Design-Add-And-Search-Words-Data-Structure/) | Python | | |
-| ⬜️ | [Word Search II](/10-Tries/03-Word-Search-II/) | Python | | |
+| ✅ | [Implement Trie Prefix Tree](/10-Tries/01-Implement-Trie-Prefix-Tree/) | Python | $\mathcal{O}(m)$ | $\mathcal{O}(N \cdot m)$ |
+| ✅ | [Design Add And Search Words Data Structure](/10-Tries/02-Design-Add-And-Search-Words-Data-Structure/) | Python | $\mathcal{O}(26^D \cdot M)$ | $\mathcal{O}(N \cdot M)$ |
+| ✅ | [Word Search II](/10-Tries/03-Word-Search-II/) | Python | $\mathcal{O}(W \cdot L + M \cdot N \cdot 3^{L-1})$ | $\mathcal{O}(W \cdot L)$ and $\mathcal{O}(L)$ |
 </details>
 
 
