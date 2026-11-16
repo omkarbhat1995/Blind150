@@ -197,7 +197,7 @@ pytest -v
 </details>
 
 <details>
-<summary><b>9. Backtracking [3 / 10]</b></summary>
+<summary><b>9. Backtracking [4 / 10]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
@@ -205,7 +205,7 @@ pytest -v
 | ✅ | [Subsets](/09-Backtracking/01-Subsets/) | Python | | |
 | ✅ | [Combination Sum](/09-Backtracking/02-Combination-Sum/) | Python | | |
 | ✅ | [Combination Sum II](/09-Backtracking/03-Combination-Sum-II/) | Python | | |
-| ⬜️ | [Permutations](/09-Backtracking/04-Permutations/) | Python | | |
+| ✅ | [Permutations](/09-Backtracking/04-Permutations/) | Python | | |
 | ⬜️ | [Generate Parentheses](/09-Backtracking/06-Generate-Parentheses/) | Python | | |
 | ⬜️ | [Word Search](/09-Backtracking/07-Word-Search/) | Python | | |
 | ⬜️ | [Palindrome Partitioning](/09-Backtracking/08-Palindrome-Partitioning/) | Python | | |
