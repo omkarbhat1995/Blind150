@@ -61,7 +61,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `89 / 150`
+**Overall Completion:** `90 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -223,7 +223,7 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Implement Trie Prefix Tree](/10-Tries/01-Implement-Trie-Prefix-Tree/) | Python | | |
-| ⬜️ | [Design Add And Search Words Data Structure](/10-Tries/02-Design-Add-And-Search-Words-Data-Structure/) | Python | | |
+| ✅ | [Design Add And Search Words Data Structure](/10-Tries/02-Design-Add-And-Search-Words-Data-Structure/) | Python | | |
 | ⬜️ | [Word Search II](/10-Tries/03-Word-Search-II/) | Python | | |
 </details>
 
