@@ -217,7 +217,7 @@ pytest -v
 
 
 <details>
-<summary><b>10. Tries [1 / 3]</b></summary>
+<summary><b>10. Tries [3 / 3]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
