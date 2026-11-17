@@ -321,7 +321,7 @@ pytest -v
 | ✅ | [Gas Station](/15-Greedy/04-Gas-Station/) | Python | $O(n)$ | $O(1)$ |
 | ✅ | [Hand of Straights](/15-Greedy/05-Hand-of-Straights/) | Python | $O(n\log(n))$ | $O(n) |
 | ✅ | [Merge Triplets to Form Target Triplet](/15-Greedy/06-Merge-Triplets-to-Form-Target-Triplet/) | Python | $O(n)$ | $O(1) |
-| ✅ | [Partition Labels](/15-Greedy/07-Partition-Labels/) | Python | | |
+| ✅ | [Partition Labels](/15-Greedy/07-Partition-Labels/) | Python | $O(n)$ | $O(1) |
 | ✅ | [Valid Parenthesis String](/15-Greedy/08-Valid-Parenthesis-String/) | Python | | |
 </details>
 
