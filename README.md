@@ -61,7 +61,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `91 / 150`
+**Overall Completion:** `93 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -313,8 +313,8 @@ pytest -v
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [Maximum Subarray](/15-Greedy/01-Maximum-Subarray/) | Python | | |
-| ⬜️ | [Jump Game/](/15-Greedy/02-Jump-Game/) | Python | | |
+| ✅ | [Maximum Subarray](/15-Greedy/01-Maximum-Subarray/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Jump Game/](/15-Greedy/02-Jump-Game/) | Python | $O(n)$ | $O(1)$ |
 | ⬜️ | [Jump Game II/](/15-Greedy/03-Jump-Game-II/) | Python | | |
 | ⬜️ | [Gas Station](/15-Greedy/04-Gas-Station/) | Python | | |
 | ⬜️ | [Hand of Straights](/15-Greedy/05-Hand-of-Straights/) | Python | | |
