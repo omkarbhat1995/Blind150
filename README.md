@@ -317,8 +317,8 @@ pytest -v
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Maximum Subarray](/15-Greedy/01-Maximum-Subarray/) | Python | $O(n)$ | $O(1)$ |
 | ✅ | [Jump Game/](/15-Greedy/02-Jump-Game/) | Python | $O(n)$ | $O(1)$ |
-| ✅ | [Jump Game II/](/15-Greedy/03-Jump-Game-II/) | Python | | |
-| ✅ | [Gas Station](/15-Greedy/04-Gas-Station/) | Python | | |
+| ✅ | [Jump Game II/](/15-Greedy/03-Jump-Game-II/) | Python | $O(n)$ | $O(1)$ |
+| ✅ | [Gas Station](/15-Greedy/04-Gas-Station/) | Python | $O(n)$ | $O(1)$ |
 | ✅ | [Hand of Straights](/15-Greedy/05-Hand-of-Straights/) | Python | | |
 | ✅ | [Merge Triplets to Form Target Triplet](/15-Greedy/06-Merge-Triplets-to-Form-Target-Triplet/) | Python | | |
 | ✅ | [Partition Labels](/15-Greedy/07-Partition-Labels/) | Python | | |
