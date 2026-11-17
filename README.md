@@ -21,7 +21,9 @@ The repository mirrors the official NeetCode roadmap, categorized by algorithmic
 ├── 05-Binary-Search/
 ├── 06-Linked-List/
 ├── 07-Trees/
+├── 09-Backtracking/
 ├── 08-Heap-Priority-Queue/
+├── 15-Greedy/
 ├── 17-Math-and-Geometry/
 └── 18-Bit-Manipulation/
 ```
@@ -61,7 +63,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `93 / 150`
+**Overall Completion:** `99 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -308,19 +310,19 @@ pytest -v
 </details>
 
 <details>
-<summary><b>15. Greedy [0 / 8]</b></summary>
+<summary><b>15. Greedy [8 / 8]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Maximum Subarray](/15-Greedy/01-Maximum-Subarray/) | Python | $O(n)$ | $O(1)$ |
 | ✅ | [Jump Game/](/15-Greedy/02-Jump-Game/) | Python | $O(n)$ | $O(1)$ |
-| ⬜️ | [Jump Game II/](/15-Greedy/03-Jump-Game-II/) | Python | | |
-| ⬜️ | [Gas Station](/15-Greedy/04-Gas-Station/) | Python | | |
-| ⬜️ | [Hand of Straights](/15-Greedy/05-Hand-of-Straights/) | Python | | |
-| ⬜️ | [Merge Triplets to Form Target Triplet](/15-Greedy/06-Merge-Triplets-to-Form-Target-Triplet/) | Python | | |
-| ⬜️ | [Partition Labels](/15-Greedy/07-Partition-Labels/) | Python | | |
-| ⬜️ | [Valid Parenthesis String](/15-Greedy/08-Valid-Parenthesis-String/) | Python | | |
+| ✅ | [Jump Game II/](/15-Greedy/03-Jump-Game-II/) | Python | | |
+| ✅ | [Gas Station](/15-Greedy/04-Gas-Station/) | Python | | |
+| ✅ | [Hand of Straights](/15-Greedy/05-Hand-of-Straights/) | Python | | |
+| ✅ | [Merge Triplets to Form Target Triplet](/15-Greedy/06-Merge-Triplets-to-Form-Target-Triplet/) | Python | | |
+| ✅ | [Partition Labels](/15-Greedy/07-Partition-Labels/) | Python | | |
+| ✅ | [Valid Parenthesis String](/15-Greedy/08-Valid-Parenthesis-String/) | Python | | |
 </details>
 
 

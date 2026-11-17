@@ -23,7 +23,7 @@ Output: -1
 * `1 <= nums.length <= 100,000`
 * `-10,000 <= nums[i] <= 10,000`
 
-===
+---
 ## Complexity Analysis
 * **Time Complexity:** $\mathcal{O}(N)$ where $N$ is the number of elements in the array. We iterate through the array exactly once, making it a highly optimal single-pass solution.
 * **Space Complexity:** $\mathcal{O}(1)$ because we only use two variables (current_sum and max_sum) to track our running totals, requiring no auxiliary data structures.
