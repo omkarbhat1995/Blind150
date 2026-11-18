@@ -64,7 +64,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `102 / 150`
+**Overall Completion:** `108 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -335,7 +335,7 @@ pytest -v
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Insert Interval](/16-Intervals/01-Insert-Interval/) | Python | $O(n)$ | $O(n)$ |
 | ✅ | [Merge Intervals](/16-Intervals/02-Merge-Intervals/) | Python | $O(n\log(n))$ | $O(n)$ |
-| ⬜️ | [Non-Overlapping Intervals](/16-Intervals/03-Non-Overlapping-Intervals/) | Python | | |
+| ✅ | [Non-Overlapping Intervals](/16-Intervals/03-Non-Overlapping-Intervals/) | Python | $O(n\log(n))$ | $O(n)$ |
 | ⬜️ | [Meeting Rooms ](/16-Intervals/04-Meeting-Rooms/) | Python | | |
 | ⬜️ | [Meeting Rooms II](/16-Intervals/05-Meeting-Rooms-II/) | Python | | |
 | ⬜️ | [Minimum Interval to Include Each Query](/16-Intervals/06-Minimum-Interval-to-Include-Each-Query/) | Python | | |
