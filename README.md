@@ -25,6 +25,7 @@ The repository mirrors the official NeetCode roadmap, categorized by algorithmic
 ├── 09-Backtracking/
 ├── 10-Tries/
 ├── 15-Greedy/
+├── 16-Intervals/
 ├── 17-Math-and-Geometry/
 └── 18-Bit-Manipulation/
 ```
