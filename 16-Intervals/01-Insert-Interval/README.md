@@ -27,6 +27,11 @@ Output: [[1,2],[3,5],[6,7],[9,10]]
 Explanation: [6,7] does not overlap with any existing interval, so it is simply inserted between [3,5] and [9,10].
 ```
 ---
+**Constraints:**
+* `0 <= intervals.length <= 10000`
+* `newInterval.length == intervals[i].length == 2`
+* `0 <= start <= end <= 100000`
+---
 ## Complexity Analysis
 * **Time Complexity:** $\mathcal{O}(N)$ where $N$ is the number of intervals. We iterate through the array of intervals exactly once, performing constant time operations at each step.
 * **Space Complexity:** $\mathcal{O}(N)$ to store the new list of merged intervals to be returned.   
