@@ -26,7 +26,9 @@ Output: 1
 * `0 <= intervals.length <= 100,000`
 * `0 <= intervals[i].start < intervals[i].end <= 1,000,000`
 ---
-Complexity AnalysisTime Complexity: $\mathcal{O}(N \log N)$ where $N$ is the number of meetings. Extracting and sorting the start and end times independently takes $\mathcal{O}(N \log N)$ time. The two-pointer traversal takes $\mathcal{O}(N)$ time.Space Complexity: $\mathcal{O}(N)$ to store the separated arrays for start and end times.
+## Complexity Analysis
+* **Time Complexity:** $\mathcal{O}(N \log N)$ where $N$ is the number of meetings. Extracting and sorting the start and end times independently takes $\mathcal{O}(N \log N)$ time. The two-pointer traversal takes $\mathcal{O}(N)$ time.
+* **Space Complexity:**  $\mathcal{O}(N)$ to store the separated arrays for start and end times.
 ---
 ## 🧪 Running the Tests
 

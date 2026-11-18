@@ -338,7 +338,7 @@ pytest -v
 | ✅ | [Non-Overlapping Intervals](/16-Intervals/03-Non-Overlapping-Intervals/) | Python | $O(n\log(n))$ | $O(n)$ |
 | ✅ | [Meeting Rooms ](/16-Intervals/04-Meeting-Rooms/) | Python | $O(n\log(n))$ | $O(n)$ |
 | ✅ | [Meeting Rooms II](/16-Intervals/05-Meeting-Rooms-II/) | Python | $O(n\log(n))$ | $O(n)$ |
-| ⬜️ | [Minimum Interval to Include Each Query](/16-Intervals/06-Minimum-Interval-to-Include-Each-Query/) | Python | | |
+| ✅ | [Minimum Interval to Include Each Query](/16-Intervals/06-Minimum-Interval-to-Include-Each-Query/) | Python | $O(n\log(n)+q\log(q))$ | $O(n+q)$ |
 </details>
 
 
