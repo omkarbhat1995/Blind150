@@ -329,7 +329,7 @@ pytest -v
 
 
 <details>
-<summary><b>16. Intervals [1 / 6]</b></summary>
+<summary><b>16. Intervals [6 / 6]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
