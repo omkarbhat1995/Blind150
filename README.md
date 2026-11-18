@@ -21,8 +21,9 @@ The repository mirrors the official NeetCode roadmap, categorized by algorithmic
 ├── 05-Binary-Search/
 ├── 06-Linked-List/
 ├── 07-Trees/
-├── 09-Backtracking/
 ├── 08-Heap-Priority-Queue/
+├── 09-Backtracking/
+├── 10-Tries/
 ├── 15-Greedy/
 ├── 17-Math-and-Geometry/
 └── 18-Bit-Manipulation/
@@ -63,7 +64,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `100 / 150`
+**Overall Completion:** `101 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -327,12 +328,12 @@ pytest -v
 
 
 <details>
-<summary><b>16. Intervals [0 / 6]</b></summary>
+<summary><b>16. Intervals [1 / 6]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [Insert Interval](/16-Intervals/01-Insert-Interval/) | Python | | |
+| ✅ | [Insert Interval](/16-Intervals/01-Insert-Interval/) | Python | $O(n)$ | $O(n)$ |
 | ⬜️ | [Merge Intervals](/16-Intervals/02-Merge-Intervals/) | Python | | |
 | ⬜️ | [Non-Overlapping Intervals](/16-Intervals/03-Non-Overlapping-Intervals/) | Python | | |
 | ⬜️ | [Meeting Rooms ](/16-Intervals/04-Meeting-Rooms/) | Python | | |
