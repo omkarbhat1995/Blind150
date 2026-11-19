@@ -240,7 +240,7 @@ pytest -v
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Number of Islands](/11-Graphs/01-Number-of-Islands/) | Python | $\mathcal{O}(m*n)$ | $\mathcal{O}(\min(m,n))$ |
-| ⬜️ | [Max Area of Island](/11-Graphs/02-Max-Area-of-Island/) | Python | | |
+| ✅ | [Max Area of Island](/11-Graphs/02-Max-Area-of-Island/) | Python | $\mathcal{O}(m*n)$ | $\mathcal{O}(\min(m,n))$ |
 | ⬜️ | [Clone Graph](/11-Graphs/03-Clone-Graph/) | Python | | |
 | ⬜️ | [Walls And Gates](/11-Graphs/04-Walls-And-Gates/) | Python | | |
 | ⬜️ | [Rotting Oranges](/11-Graphs/05-Rotting-Oranges/) | Python | | |
