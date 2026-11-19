@@ -14,12 +14,12 @@ If a car catches up to a car fleet at the exact moment the fleet reaches the des
 Return the number of different car fleets that will arrive at the destination.
 ---
 **Constraints:**
-- `n == position.length == speed.length`
-- `1 <= n <= 1000`
-- `0 < target <= 1000`
-- `0 < speed[i] <= 100`
-- `0 <= position[i] < target`
-- All the values of `position` are unique.
+* `n == position.length == speed.length`
+* `1 <= n <= 1000`
+* `0 < target <= 1000`
+* `0 < speed[i] <= 100`
+* `0 <= position[i] < target`
+* All the values of `position` are unique.
 ---
 ## Approach: Sorting and Stack
 To determine if a car will catch up to the car ahead of it, we need to calculate the time it takes for each car to reach the destination: `time = (target - position) / speed`.
@@ -31,8 +31,8 @@ To determine if a car will catch up to the car ahead of it, we need to calculate
 5. In the end, the length of the stack represents the number of distinct fleets.
 ---
 ## Complexity
-- **Time Complexity:** O(n log n) - Sorting the array of cars takes O(n log n) time. The subsequent stack iteration takes exactly O(n) time.
-- **Space Complexity:** O(n) - We allocate O(n) space to store the pairs of positions and speeds, as well as O(n) space for the stack.
+* **Time Complexity:** O(n log n) - Sorting the array of cars takes O(n log n) time. The subsequent stack iteration takes exactly O(n) time.
+* **Space Complexity:** O(n) - We allocate O(n) space to store the pairs of positions and speeds, as well as O(n) space for the stack.
 ---
 ## How to Run the Tests
 This directory contains a complete test suite using Python's built-in `unittest` framework.

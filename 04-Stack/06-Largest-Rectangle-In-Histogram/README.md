@@ -6,8 +6,8 @@ You are given an array of integers `heights` where `heights[i]` represents the h
 Return the area of the largest rectangle that can be formed among the bars.
 ---
 **Constraints:**
-- `1 <= heights.length <= 1000`
-- `0 <= heights[i] <= 1000`
+* `1 <= heights.length <= 1000`
+* `0 <= heights[i] <= 1000`
 ---
 ## Approach: Monotonic Stack
 A brute-force solution would expand outward from every bar to find the maximum width it can sustain, taking O(n²) time. We can optimize this to O(n) using a **Monotonic Stack**.
@@ -20,8 +20,8 @@ A brute-force solution would expand outward from every bar to find the maximum w
 6. Once the loop finishes, any remaining elements in the stack can extend all the way to the end of the histogram. We pop them and calculate their areas using the total length of the array.
 ---
 ## Complexity
-- **Time Complexity:** O(n) - We iterate through the array once, and each bar is pushed and popped from the stack at most once.
-- **Space Complexity:** O(n) - In the worst-case scenario (e.g., strictly increasing heights), the stack will grow proportionally to the number of bars.
+* **Time Complexity:** O(n) - We iterate through the array once, and each bar is pushed and popped from the stack at most once.
+* **Space Complexity:** O(n) - In the worst-case scenario (e.g., strictly increasing heights), the stack will grow proportionally to the number of bars.
 ---
 ## How to Run the Tests
 This directory contains a complete test suite using Python's built-in `unittest` framework.

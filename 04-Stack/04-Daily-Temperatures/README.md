@@ -6,8 +6,8 @@ You are given an array of integers `temperatures` where `temperatures[i]` repres
 Return an array `result` where `result[i]` is the number of days after the `ith` day before a warmer temperature appears on a future day. If there is no day in the future where a warmer temperature will appear for the `ith` day, set `result[i]` to `0` instead.
 ---
 **Constraints:**
-- `1 <= temperatures.length <= 1000`
-- `1 <= temperatures[i] <= 100`
+* `1 <= temperatures.length <= 1000`
+* `1 <= temperatures[i] <= 100`
 ---
 ## Approach: Monotonic Decreasing Stack
 A brute-force solution would check every future day for every single day, resulting in a slow O(n^2) time complexity. We can optimize this to O(n) by using a **Monotonic Decreasing Stack**.
@@ -19,8 +19,8 @@ A brute-force solution would check every future day for every single day, result
 5. We continue popping until the stack is empty or the current temperature is no longer warmer than the top of the stack, then push the current `[temperature, index]` pair.
 ---
 ## Complexity
-- **Time Complexity:** O(n) - We iterate through the array once, and each element is pushed and popped from the stack at most once.
-- **Space Complexity:** O(n) - In the worst-case scenario (e.g., strictly decreasing temperatures), the stack will grow to the size of the array.
+* **Time Complexity:** O(n) - We iterate through the array once, and each element is pushed and popped from the stack at most once.
+* **Space Complexity:** O(n) - In the worst-case scenario (e.g., strictly decreasing temperatures), the stack will grow to the size of the array.
 ---
 ## How to Run the Tests
 This directory contains a complete test suite using Python's built-in `unittest` framework.

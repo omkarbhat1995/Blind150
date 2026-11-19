@@ -22,9 +22,9 @@ After performing at most `k` replacements, return the length of the longest subs
 - **Explanation:** Replace the one 'B' in the middle to get "AAAAABB", which gives a repeating 'A' string of length 5.
 ---
 ### Constraints
-- `1 <= s.length <= 1000`
-- `0 <= k <= s.length`
-- `s` consists of only uppercase English letters.
+* `1 <= s.length <= 1000`
+* `0 <= k <= s.length`
+* `s` consists of only uppercase English letters.
 ---
 ## Optimal Approach
 
@@ -36,8 +36,8 @@ If this condition is true, our window is valid because the number of characters 
 To optimize further, we don't even need to strictly decrement our historical `max_frequency` when shrinking the window. The overall maximum window size is only ever bounded by the highest frequency we've seen so far.
 ---
 ### Complexity
-- **Time Complexity:** $O(n)$ where $n$ is the length of the string. Both the left and right pointers only move forward.
-- **Space Complexity:** $O(1)$ (or $O(26)$) since the frequency hash map will store at most 26 uppercase English characters.
+* **Time Complexity:** $O(n)$ where $n$ is the length of the string. Both the left and right pointers only move forward.
+* **Space Complexity:** $O(1)$ (or $O(26)$) since the frequency hash map will store at most 26 uppercase English characters.
 ---
 ## How to Run the Tests
 This directory contains a complete test suite using Python's built-in `unittest` framework.

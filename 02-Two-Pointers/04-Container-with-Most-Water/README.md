@@ -7,9 +7,7 @@ You may choose any two bars to form a container. Return the maximum amount of wa
 ### Constraints:
 * `2 <= height.length <= 1000`
 * `0 <= height[i] <= 1000`
-
 ---
-
 ## Approach: Two Pointers
 A brute-force approach would check every possible pair of bars, resulting in an `O(n^2)` time complexity. However, we can optimize this to `O(n)` using the **Two-Pointer technique**.
 

@@ -9,11 +9,10 @@ Design a stack class that supports the `push`, `pop`, `top`, and `getMin` operat
 - `int top()` gets the top element of the stack.
 - `int getMin()` retrieves the minimum element in the stack.
 ---
-**Constraint:** Each function must run in $O(1)$ time.
-
 **Constraints:**
-- $-2^{31} \le val \le 2^{31} - 1$
-- `pop`, `top` and `getMin` will always be called on non-empty stacks.
+* `Each function must run in $O(1)$ time`
+* `$-2^{31} \le val \le 2^{31} - 1$`
+* `pop`, `top` and `getMin` will always be called on non-empty stacks.
 ---
 ## Approach: Two Stacks
 To achieve $O(1)$ retrieval of the minimum value, a single standard stack is not enough because popping the minimum value would require us to search the entire stack for the new minimum. 

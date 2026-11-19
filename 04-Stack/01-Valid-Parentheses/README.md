@@ -9,8 +9,8 @@ The input string `s` is valid if and only if:
 3. Every close bracket has a corresponding open bracket of the same type.
 ---
 **Constraints:**
-- `1 <= s.length <= 1000`
-- `s` consists of parentheses only `'()[]{}'`.
+* `1 <= s.length <= 1000`
+* `s` consists of parentheses only `'()[]{}'`.
 ---
 ## Approach: Stack
 The optimal way to validate matching pairs in a specific order is by using a **Stack**. 

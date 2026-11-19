@@ -27,7 +27,7 @@ You may assume that every input has exactly one pair of indices `i` and `j` that
 * `2 <= nums.length <= 1000`
 * `-10,000,000 <= nums[i] <= 10,000,000`
 * `-10,000,000 <= target <= 10,000,000`
-* Only one valid answer exists.
+* `Only one valid answer exists.`
 
 ---
 

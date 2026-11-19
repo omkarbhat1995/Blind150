@@ -7,9 +7,7 @@ Return the maximum area of water that can be trapped between the bars.
 ### Constraints:
 * `1 <= height.length <= 1000`
 * `0 <= height[i] <= 1000`
-
 ---
-
 ## Approach: Two Pointers
 A brute-force approach would check every bar to see the maximum height to its left and its right, leading to an `O(n^2)` time complexity. We can optimize this to `O(n)` using the **Two-Pointer technique**, eliminating the need for extra arrays (like in dynamic programming) and keeping space complexity strictly `O(1)`.
 ---
