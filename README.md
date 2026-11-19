@@ -65,7 +65,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `113 / 150`
+**Overall Completion:** `112 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -234,7 +234,7 @@ pytest -v
 
 
 <details>
-<summary><b>11. Graphs [5 / 13]</b></summary>
+<summary><b>11. Graphs [7 / 13]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
@@ -244,8 +244,8 @@ pytest -v
 | ✅ | [Clone Graph](/11-Graphs/03-Clone-Graph/) | Python | $\mathcal{O}(V+E)$ | $\mathcal{O}(V)$ |
 | ✅ | [Walls And Gates](/11-Graphs/04-Walls-And-Gates/) | Python |$\mathcal{O}(m \times n)$ | $\mathcal{O}(m \times n)$ |
 | ✅ | [Rotting Oranges](/11-Graphs/05-Rotting-Oranges/) | Python | $\mathcal{O}(M \cdot N) | $\mathcal{O}(M \cdot N) |
-| ⬜️ | [Pacific Atlantic Water Flow](/11-Graphs/06-Pacific-Atlantic-Water-Flow/) | Python | | |
-| ⬜️ | [Surrounded Regions](/11-Graphs/07-Surrounded-Regions/) | Python | | |
+| ✅ | [Pacific Atlantic Water Flow](/11-Graphs/06-Pacific-Atlantic-Water-Flow/) | Python | $\mathcal{O}(M \cdot N) | $\mathcal{O}(M \cdot N) |
+| ✅ | [Surrounded Regions](/11-Graphs/07-Surrounded-Regions/) | Python | $\mathcal{O}(M \cdot N) | $\mathcal{O}(M \cdot N) |
 | ⬜️ | [Course Schedule](/11-Graphs/08-Course-Schedule/) | Python | | |
 | ⬜️ | [Course Schedule II](/11-Graphs/09-Course-Schedule-II/) | Python | | |
 | ⬜️ | [Graph Valid Tree](/11-Graphs/10-Graph-Valid-Tree/) | Python | | |
