@@ -65,7 +65,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `108 / 150`
+**Overall Completion:** `109 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -234,12 +234,12 @@ pytest -v
 
 
 <details>
-<summary><b>11. Graphs [0 / 13]</b></summary>
+<summary><b>11. Graphs [1 / 13]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [Number of Islands](/11-Graphs/01-Number-of-Islands/) | Python | | |
+| ✅ | [Number of Islands](/11-Graphs/01-Number-of-Islands/) | Python | $\mathcal{O}(m*n)$ | $\mathcal{O}(\min(m,n))$ |
 | ⬜️ | [Max Area of Island](/11-Graphs/02-Max-Area-of-Island/) | Python | | |
 | ⬜️ | [Clone Graph](/11-Graphs/03-Clone-Graph/) | Python | | |
 | ⬜️ | [Walls And Gates](/11-Graphs/04-Walls-And-Gates/) | Python | | |
