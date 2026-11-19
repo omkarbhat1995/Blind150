@@ -22,14 +22,12 @@ An anagram is a string that contains the exact same characters as another string
 **Example 3:**
 > **Input:** `strs = [""]`  
 > **Output:** `[[""]]`
-
+---
 ### Constraints
 * `1 <= strs.length <= 1000`
 * `0 <= strs[i].length <= 100`
 * `strs[i]` is made up of lowercase English letters.
-
 ---
-
 ## 💡 Approach
 
 A naive approach would be to sort every single string and group them by their sorted version. However, sorting takes `O(k log k)` time per string, which slows down as the strings get longer.

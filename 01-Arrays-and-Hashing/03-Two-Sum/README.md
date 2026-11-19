@@ -44,9 +44,7 @@ We check if this complement already exists in our Hash Map:
 ### ⏱️ Complexity
 * **Time Complexity:** `O(n)` — We traverse the list containing `n` elements exactly once. Each lookup and insertion in the Hash Map takes `O(1)` time on average.
 * **Space Complexity:** `O(n)` — In the worst-case scenario, we might need to store `n - 1` elements in our Hash Map before finding the matching pair.
-
 ---
-
 ## 🧪 Running the Tests
 
 To run the tests for this specific problem, execute the following command in your terminal from the root directory:

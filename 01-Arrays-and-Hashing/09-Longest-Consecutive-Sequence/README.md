@@ -10,7 +10,7 @@ Given an array of integers `nums`, return the length of the longest consecutive 
 A consecutive sequence is a sequence of elements in which each element is exactly `1` greater than the previous element. The elements do not have to be consecutive in the original array.
 
 **Requirement:** You must write an algorithm that runs in `O(n)` time.
-
+---
 ### Examples
 
 **Example 1:**
@@ -25,7 +25,6 @@ A consecutive sequence is a sequence of elements in which each element is exactl
 ### Constraints
 * `0 <= nums.length <= 1000`
 * `-10^9 <= nums[i] <= 10^9`
-
 ---
 
 ## 💡 Approach
@@ -38,13 +37,11 @@ The strict `O(n)` time constraint means we cannot sort the array (which would ta
 4. Keep track of the maximum sequence length found.
 
 By only initiating the inner `while` loop when we find the *start* of a sequence, we ensure that each number is processed at most twice (once in the outer loop, once in the inner loop). This guarantees our `O(n)` time complexity.
-
+---
 ### ⏱️ Complexity
 * **Time Complexity:** `O(n)` — Converting the array to a set takes `O(n)`. The `while` loop only runs for the lengths of the sequences, meaning each element is visited roughly `O(1)` times inside the loops.
 * **Space Complexity:** `O(n)` — In the worst case, we store all `n` elements in the Hash Set.
-
 ---
-
 ## 🧪 Running the Tests
 
 To run the tests for this specific problem, execute the following command in your terminal from the root directory:

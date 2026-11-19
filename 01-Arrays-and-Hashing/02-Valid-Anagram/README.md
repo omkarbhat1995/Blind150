@@ -34,7 +34,6 @@ Since the problem constraints guarantee that our strings only contain lowercase 
 ### ⏱️ Complexity
 * **Time Complexity:** `O(n + m)` — We iterate through both strings completely (where `n` and `m` are the lengths of `s` and `t`).
 * **Space Complexity:** `O(1)` — We use an array of size 26 regardless of how large the input strings grow. Because the auxiliary space does not scale with the input size, it is strictly constant.
-
 ---
 
 ## 🧪 Running the Tests

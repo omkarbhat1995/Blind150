@@ -8,7 +8,7 @@
 Given an integer array `nums` and an integer `k`, return the `k` most frequent elements within the array.
 
 The test cases are generated such that the answer is always unique. You may return the output in any order.
-
+---
 ### Examples
 
 **Example 1:**
@@ -18,7 +18,7 @@ The test cases are generated such that the answer is always unique. You may retu
 **Example 2:**
 > **Input:** `nums = [7, 7], k = 1`  
 > **Output:** `[7]`
-
+---
 ### Constraints
 * `1 <= nums.length <= 10^4`
 * `-1000 <= nums[i] <= 1000`
@@ -39,9 +39,7 @@ However, we can achieve a strict linear **`O(N)`** time complexity by using a mo
 ### ⏱️ Complexity
 * **Time Complexity:** `O(n)` — We iterate through the array to count frequencies, iterate through the hash map to populate buckets, and iterate through the buckets to get the result. All loops are unnested and scale linearly with `n`.
 * **Space Complexity:** `O(n)` — The Hash Map and the Bucket array both require memory proportional to the size of the input array.
-
 ---
-
 ## 🧪 Running the Tests
 
 To run the tests for this specific problem, execute the following command in your terminal from the root directory:
