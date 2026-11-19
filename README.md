@@ -24,6 +24,7 @@ The repository mirrors the official NeetCode roadmap, categorized by algorithmic
 ├── 08-Heap-Priority-Queue/
 ├── 09-Backtracking/
 ├── 10-Tries/
+├── 11-Graphs/
 ├── 15-Greedy/
 ├── 16-Intervals/
 ├── 17-Math-and-Geometry/
