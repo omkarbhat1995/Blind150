@@ -12,7 +12,7 @@ There are a total of `numCourses` courses you are required to take, labeled from
 
 Return `true` if it is possible to finish all courses, otherwise return `false`.
 ---
-### Example
+## Example
 **Example 1:**
 ```text
 Input: numCourses = 2, prerequisites = [[0,1]]
