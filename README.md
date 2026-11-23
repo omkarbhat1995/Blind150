@@ -25,6 +25,7 @@ The repository mirrors the official NeetCode roadmap, categorized by algorithmic
 ├── 09-Backtracking/
 ├── 10-Tries/
 ├── 11-Graphs/
+├── 13-1-D-Dynamic-Programming/
 ├── 15-Greedy/
 ├── 16-Intervals/
 ├── 17-Math-and-Geometry/
@@ -66,7 +67,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `115 / 150`
+**Overall Completion:** `116 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -271,12 +272,12 @@ pytest -v
 
 
 <details>
-<summary><b>13. 1-D Dynamic Programming [0 / 12]</b></summary>
+<summary><b>13. 1-D Dynamic Programming [1 / 12]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
-| ⬜️ | [Climbing Stairs](/13-1-D-Dynamic-Programming/01-Climbing-Stairs/) | Python | | |
+| ✅ | [Climbing Stairs](/13-1-D-Dynamic-Programming/01-Climbing-Stairs/) | Python | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ |
 | ⬜️ | [Min Cost Climbing Stairs](/13-1-D-Dynamic-Programming/02-Min-Cost-Climbing-Stairs/) | Python | | |
 | ⬜️ | [House Robber](/13-1-D-Dynamic-Programming/03-House-Robber/) | Python | | |
 | ⬜️ | [House Robber II](/13-1-D-Dynamic-Programming/04-House-Robber-II/) | Python | | |
