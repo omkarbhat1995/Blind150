@@ -67,7 +67,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `116 / 150`
+**Overall Completion:** `117 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -272,13 +272,13 @@ pytest -v
 
 
 <details>
-<summary><b>13. 1-D Dynamic Programming [1 / 12]</b></summary>
+<summary><b>13. 1-D Dynamic Programming [2 / 12]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
 | :---: | :--- | :---: | :---: | :---: |
 | ✅ | [Climbing Stairs](/13-1-D-Dynamic-Programming/01-Climbing-Stairs/) | Python | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ |
-| ⬜️ | [Min Cost Climbing Stairs](/13-1-D-Dynamic-Programming/02-Min-Cost-Climbing-Stairs/) | Python | | |
+| ✅ | [Min Cost Climbing Stairs](/13-1-D-Dynamic-Programming/02-Min-Cost-Climbing-Stairs/) | Python | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ |
 | ⬜️ | [House Robber](/13-1-D-Dynamic-Programming/03-House-Robber/) | Python | | |
 | ⬜️ | [House Robber II](/13-1-D-Dynamic-Programming/04-House-Robber-II/) | Python | | |
 | ⬜️ | [Longest Palindromic Substring](/13-1-D-Dynamic-Programming/05-Longest-Palindromic-Substring/) | Python | | |
