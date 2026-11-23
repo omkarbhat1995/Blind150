@@ -66,7 +66,7 @@ pytest -v
 
 ## 📈 Progress Dashboard
 
-**Overall Completion:** `114 / 150`
+**Overall Completion:** `115 / 150`
 *(Click on any category to expand and see the specific problems, solutions, and complexities!)*
 
 <details open>
@@ -202,7 +202,7 @@ pytest -v
 </details>
 
 <details>
-<summary><b>9. Backtracking [6 / 10]</b></summary>
+<summary><b>9. Backtracking [7 / 10]</b></summary>
 <br>
 
 | Status | Problem | Language | Time | Space |
@@ -216,7 +216,7 @@ pytest -v
 | ⬜️ | [Word Search](/09-Backtracking/07-Word-Search/) | Python | | |
 | ⬜️ | [Palindrome Partitioning](/09-Backtracking/08-Palindrome-Partitioning/) | Python | | |
 | ⬜️ | [Letter Combination of a Phone Number](/09-Backtracking/09-Letter-Combination-of-a-Phone-Number/) | Python | | |
-| ⬜️ | [N-Queens](/09-Backtracking/10-N-Queens/) | Python | | |
+| ✅ | [N-Queens](/09-Backtracking/10-N-Queens/) | Python | $\mathcal{O}(n!)$ | $\mathcal{O}(n^2)$ |
 
 </details>
 
